@@ -43,5 +43,16 @@ The check hit looks up all enemy AI actors and checks for each whether they are 
 ## Game UI
 
 ## Pause UI
+Explored various mockup designs with food themes, such as a round menu for pizza and a cake with a fork serving as a pointer.
+Initially attempted to incorporate the 3D model of the sword into the Pause Menu, but settled for a 2D variation of the design and included the sprite on the button.
 
 ## Weapon To Character
+
+## Enemy
+The enemy has a Pawn Sensing node and if the Main Character reaches into the field of view of the enemy it starts following the player until it is killed. If the enemy is in a certain attack range the hit animation and an attack trace function is executed.
+
+## Audio 
+We attempted to play snippets of the Background Music and make them overlapping with a fade in/out to achieve a looping effect. However, we were unsuccessful because it is not possible to set delays depending on the length of an audio file dynamically, they have to be hard coded in the cue file. Then we tried to implement the fade in and out effect in the level Blueprint. Although there are nodes that could be used, we did not receive any audio feedback when using the Audio Component. We will revisit this issue next semester. Currently, we have implemented a feature where the audio starts when the Level begins and pauses when the pause UI Component appears. The game Audio is paused until the UI element is closed.
+
+## Particle System (Death Animation)
+Implemented an explosion with Niagara, by creating a custom matirial to get different particles. There is also the possibility to change the base colors of the explosions to make the System modular for future Enemys.
