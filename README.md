@@ -97,3 +97,46 @@ Time spent:
 Implemented an explosion with Niagara, by creating a custom material to get different particles. There is also the possibility to change the base colors of the explosions to make the System modular for future Enemies.+
 
 Time spent:
+
+## Level Streaming
+Levels are located in Content/Levels. The streaming functionality of the levels is implemented in their blueprints and the current level setup consists of 3 levels - Persistent, StartWorld and DungeonRoom1, where Persistent is the underlying base level that contains components that are static in all levels (currently only lighting). At the BeginPlay event, this level loads the StartWorld level, which is the actual starting point for our player. Currently, the player can switch from StartWorld to DungeonRoom1 and vice versa. In the respective blueprints, the streaming functionality is indicated by the comment sections "Level Setup" and "Load Another Level". Levels are loaded when the player triggers the associated trigger volume. This deactivates the player's input, automatically moves the character to a destination point behind the volume, and plays a camera fade-out effect for a visually smooth transition. Inside the other level, the player is teleported to the destination point that marks the beginning of the level before player input is activated and faded back in. In future development, we plan to use this approach for all level transitions.
+
+One of the more time-consuming sources of errors during implementation was the RecastNavMesh component, where "Runtime Generation" must be set to the "Dynamic" option, otherwise the NavMesh will not be adapted to the new level and the enemy AI will not be able to move after loading another level.
+
+Next steps/further improvements: Wrap the level streaming functionality into two functions with sensible parameters to avoid clutter in the blueprints of further levels.
+
+Time spent: 20h
+
+## Throwing Knives
+Knives (or rather forks in our case) can be thrown with a right mouse click. They have an internal cooldown of 2 seconds, but the corresponding widget has not been implemented yet. The knives are thrown in the character's facing direction.
+The spawning/throwing functionality has been implemented in the main character's blueprint in Content/Characters/MainCharacter/BP_ThirdPersonCharacter, with the projectile itself implemented as an Actor in Content/Characters/MainCharacter/Weapons/BP_Knife.
+
+__BP_ThirdPersonCharacter:__  
+The main character has 3 invisible and collision-free spheres KnifeRef[LMR] (visible and adjustable in the viewport of BP_ThirdPersonCharacter), which are used as references where to spawn the knives and in which direction to throw them. The implementation is called on the "InputAction Attack_2" event and consists of the controlflow that checks/sets the cooldown and obtains/releases the animation lock (only one animation at a time), and the actual spawning of the knives. To throw them in line of sight, the world rotation of the capsule component is specified. For the adjustment of the velocity rotation from the character to a specific knife instance, the relative rotation of the reference is provided, as this functionality is implemented in the Actor class BP_Knife. After spawning, the local rotation (for mesh & collision box) of the knives is adjusted to the rotation of their velocity, i.e. their flight direction. With the activation of their projectile movement component the knives are thrown.
+
+__BP_Knife:__  
+The BP_Knife Actor-Class offers two possibilities to adjust the velocity rotation. Either from the spawning actor (emitter) to the target actor (not used in our project yet, but may be useful later) or by supplied rotator (event BeginPlay). Also, the velocity is adjusted by adding the velocity of the emitter to get an authentic throwing feeling. The collision of the projectile is set to collide with everything except pawns, for which overlapping events are generated. (This distinction may be useful later for piercing projectiles.) When overlapping with the enemy AI, it inflicts damage, whereby the projectile is first deactivated as well as made invisible and destroyed after a short delay to give the application enough time to display the damage numbers, as the projectile's speed is needed for their impulse.
+
+Premature deletion of the projectile actor proved to be a source of many errors during implementation. Unfortunately, many error messages were misleading, as they usually pointed to another part of the blueprint that was working well. Also, in one of the first versions, the projectile threw enemies back and stunned them (which was implemented in the enemy AI blueprint), but this functionality kept crashing the game randomly. We have removed this part for now, as we could not find the underlying cause yet, but we plan to re-implement this functionality in the knife actor class.
+
+Next steps/further improvements: Move the projectile/mesh rotation to BP_Knife and rotate together with the velocity. Add knockback and stun functionality as an effect the Actor Knife applies to the enemy (analogous to damage).
+
+Time spent: 35h
+
+## Damage Numbers
+When the enemy takes damage, a text is displayed in the center of the enemy AI indicating the damage amount. After a short period of time, the displayed text fades out and moves upward. Note that when the AI is hit with a projectile, the displayed text is shot out of the enemy actor with a dampened impulse from the hitting projectile. This functionality is implemented under Content/UI/FloatingCombatText and consists of the following 3 parts:
+
+__FloatingCombatText:__
+The widget that contains the combat text. It is set to be always visible in screen space and contains a "FloatUpFadeOut" animation that starts linearly and transitions to a smooth curve (visible in the curve editor), with the displayed text gradually fading out and moving up. The text itself is set as a variable, since we want to define it dynamically at runtime. This can be done using the "Initialize" event defined in the blueprint graph. In addition, the playback speed is adjustable and a custom event is called after the widget animation is finished. This is needed in order to know when the associated actor can be deleted.
+
+__BP_FloatingCombatText:__
+The actor associated with the widget that is needed for the physics simulation. It is configured to be invisible and ignore all collisions. In addition to initializing the widget, it binds its destructor to the previously defined custom event and takes a velocity as input that is used as impulse for its movement. Since we don't want to shoot the displayed text too far away from the opponent, the length of the velocity vector is divided by 1000, multiplied by the input variable AbsLinearDampingFactor, and then set as a linear damping factor which allows us to adjust the distance it will traverse.
+
+__BPC_DamageDisplay:__
+The blueprint for a component that binds to its owner's damage event and creates a FloatingCombatText actor at the owner's position when it is triggered. This represents the final component added to the enemy AI blueprint.
+
+This modular implementation style allows the combat text actor to be reused for displays other than damage, which can then be defined as another component analogous to BPC_DamageDisplay, which in turn can be added simply by adding the component to the respective actor.
+
+Next steps/further improvements: Add the possibility for other colors for the FloatingCombatText widget and implement more variations, such as red for main character damage, green for main character healing, gold for enemy AI critical hits, etc.
+
+Time spent: 25h
