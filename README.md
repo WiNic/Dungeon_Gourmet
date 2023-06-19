@@ -1,5 +1,12 @@
 # Dungeon Gourmet
 
+# Members
+
+ai22m016 - Dario Bachinger  
+ai22m025 - Lukas Hartinger  
+ai22m012 - Nico Winter  
+ai22m007 - Philipp Lakheshar  
+
 # Features
 
 ## Basic Movement
