@@ -67,6 +67,8 @@ Time spent: 10h
 Explored various mockup designs with food themes, such as a round menu for pizza and a cake with a fork serving as a pointer.
 Initially attempted to incorporate the 3D model of the sword into the Pause Menu, but settled for a 2D variation of the design and included the sprite on the button.
 
+Time spent: 10h
+
 ## Weapon To Character
 The weapon the of main character is located in Content/Characters/MainCharacter/Weapons. This weapon, as well as the main character and the throwing knives, were all modelled by us using blender.
 
@@ -75,7 +77,6 @@ The main character has a socket on his right arm to hold the sword. Sadly, as th
 During BeginPlay inside BP_ThirdPersonCharacter the sword is created and put onto the socket. The sword is saved to be used during the attack calculations.
 
 Time spent: 10h
-
 
 ## Enemy
 The functionality behind the enemy is implemented in "Enemy_AI" inside Content/Characters/Enemy, the resources are also located in that folder.
@@ -91,12 +92,12 @@ Time spent: 25h
 ## Audio 
 We attempted to play snippets of the Background Music and make them overlapping with a fade in/out to achieve a looping effect. However, we were unsuccessful because it is not possible to set delays depending on the length of an audio file dynamically, they have to be hard coded in the cue file. Then we tried to implement the fade in and out effect in the level Blueprint. Although there are nodes that could be used, we did not receive any audio feedback when using the Audio Component. We will revisit this issue next semester. Currently, we have implemented a feature where the audio starts when the Level begins and pauses when the pause UI Component appears. The game Audio is paused until the UI element is closed.
 
-Time spent:
+Time spent: 10h
 
 ## Particle System (Death Animation)
-Implemented an explosion with Niagara, by creating a custom material to get different particles. There is also the possibility to change the base colors of the explosions to make the System modular for future Enemies.+
+Implemented an explosion with Niagara, by creating a custom material to get different particles. There is also the possibility to change the base colors of the explosions to make the System modular for future Enemies.
 
-Time spent:
+Time spent: 5h
 
 ## Level Streaming
 Levels are located in Content/Levels. The streaming functionality of the levels is implemented in their blueprints and the current level setup consists of 3 levels - Persistent, StartWorld and DungeonRoom1, where Persistent is the underlying base level that contains components that are static in all levels (currently only lighting). At the BeginPlay event, this level loads the StartWorld level, which is the actual starting point for our player. Currently, the player can switch from StartWorld to DungeonRoom1 and vice versa. In the respective blueprints, the streaming functionality is indicated by the comment sections "Level Setup" and "Load Another Level". Levels are loaded when the player triggers the associated trigger volume. This deactivates the player's input, automatically moves the character to a destination point behind the volume, and plays a camera fade-out effect for a visually smooth transition. Inside the other level, the player is teleported to the destination point that marks the beginning of the level before player input is activated and faded back in. In future development, we plan to use this approach for all level transitions.
@@ -140,3 +141,12 @@ This modular implementation style allows the combat text actor to be reused for 
 Next steps/further improvements: Add the possibility for other colors for the FloatingCombatText widget and implement more variations, such as red for main character damage, green for main character healing, gold for enemy AI critical hits, etc.
 
 Time spent: 25h
+
+# Total Time Spent
+
+Features (incl. Research): 220h  
+Asset Search: 20h  
+Meetings & Discussion: 40h  
+Project Config & Rudimentary Level Design: 10h  
+Documentation: 10h  
+__Total:__ 300h
