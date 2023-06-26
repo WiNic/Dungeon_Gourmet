@@ -1,0 +1,1312 @@
+﻿Log file open, 06/11/23 01:30:48
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=23132)
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: DungeonGourmet
+LogCore: UnrealTraceServer: Trace store launch successful
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.0-CL-20979098"
+LogCsvProfiler: Display: Metadata set : engineversion="5.0.3-20979098+++UE5+Release-5.0"
+LogCsvProfiler: Display: Metadata set : commandline="" C:\dev\FH\DevProjekt\Dungeon_Gourmet\DungeonGourmet\DungeonGourmet.uproject""
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (22H2) [10.0.22621.1702] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="42fef4db48386641c601f18e1b0d4094"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPlatformFile: Not using cached read wrapper
+LogStats: Stats thread started at 0.424114
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-8742C69C4B4C7B7BF5947DB6399E3730
+         Session CrashGUID >====================================================
+LogConfig: Display: Loading HoloLens ini files took 0.05 seconds
+LogConfig: Display: Loading Android ini files took 0.07 seconds
+LogConfig: Display: Loading Mac ini files took 0.07 seconds
+LogConfig: Display: Loading IOS ini files took 0.09 seconds
+LogConfig: Display: Loading Unix ini files took 0.09 seconds
+LogConfig: Display: Loading TVOS ini files took 0.12 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.12 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.07 seconds
+LogConfig: Display: Loading Linux ini files took 0.13 seconds
+LogConfig: Display: Loading Windows ini files took 0.07 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin MatineeToLevelSequence
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin StaticMeshEditorModeling
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin RuntimePhysXCooking
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/StaticMeshEditorModeling/Content/' mounted to '/StaticMeshEditorModeling/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/HairStrands/Content/' mounted to '/HairStrands/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE5+Release-5.0-CL-20979098
+LogInit: Engine Version: 5.0.3-20979098+++UE5+Release-5.0
+LogInit: Compatible Engine Version: 5.0.0-19505902+++UE5+Release-5.0
+LogInit: Net CL: 19505902
+LogInit: OS: Windows 11 (22H2) [10.0.22621.1702] (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jul  7 2022 02:16:06
+LogInit: Compiled with Visual C++: 19.29.30138.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.0
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 34
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 59
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 3
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 59
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 36
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[r.DetectAndWarnOfBadDrivers:0]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2023.06.10-23.30.48:937][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2023.06.10-23.30.48:937][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2023.06.10-23.30.48:937][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MatineeActorCameraAnim]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MatineeActorCameraAnim]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2023.06.10-23.30.48:938][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2023.06.10-23.30.48:946][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2023.06.10-23.30.48:946][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2023.06.10-23.30.48:946][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2023.06.10-23.30.48:946][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2023.06.10-23.30.48:946][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2023.06.10-23.30.48:946][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2023.06.10-23.30.48:946][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2023.06.10-23.30.48:947][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2023.06.10-23.30.48:947][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2023.06.10-23.30.48:947][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2023.06.10-23.30.48:947][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2023.06.10-23.30.48:985][  0]LogD3D12RHI: Aftermath initialized
+[2023.06.10-23.30.48:985][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2023.06.10-23.30.49:360][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 2060 (Max supported Feature Level 12_1, shader model 6.6)
+[2023.06.10-23.30.49:360][  0]LogD3D12RHI: Adapter has 5968MB of dedicated video memory, 0MB of dedicated system memory, and 8095MB of shared system memory, 3 output[s]
+[2023.06.10-23.30.49:455][  0]LogD3D12RHI: Found D3D12 adapter 1: Intel(R) UHD Graphics 630 (Max supported Feature Level 12_1, shader model 6.5)
+[2023.06.10-23.30.49:455][  0]LogD3D12RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8095MB of shared system memory, 0 output[s]
+[2023.06.10-23.30.49:495][  0]LogD3D12RHI: Found D3D12 adapter 2: Microsoft Basic Render Driver (Max supported Feature Level 12_1, shader model 6.2)
+[2023.06.10-23.30.49:495][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8095MB of shared system memory, 0 output[s]
+[2023.06.10-23.30.49:496][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2023.06.10-23.30.49:496][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2023.06.10-23.30.49:496][  0]LogDeviceProfileManager: Applying CVar settings loaded from the selected device profile: [WindowsEditor]
+[2023.06.10-23.30.49:496][  0]LogHAL: Display: Platform has ~ 16 GB [16976932864 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.06.10-23.30.49:497][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2023.06.10-23.30.49:497][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2023.06.10-23.30.49:497][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.06.10-23.30.49:498][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2023.06.10-23.30.49:498][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/Saved/Config/WindowsEditor/Editor.ini]
+[2023.06.10-23.30.49:498][  0]LogInit: Computer: LAPTOP-6I9M3OVM
+[2023.06.10-23.30.49:498][  0]LogInit: User: nicow
+[2023.06.10-23.30.49:498][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.06.10-23.30.49:498][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.06.10-23.30.49:498][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2023.06.10-23.30.49:498][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2023.06.10-23.30.49:498][  0]LogMemory: Process Physical Memory: 275.89 MB used, 283.23 MB peak
+[2023.06.10-23.30.49:498][  0]LogMemory: Process Virtual Memory: 237.55 MB used, 237.55 MB peak
+[2023.06.10-23.30.49:498][  0]LogMemory: Physical Memory: 13959.30 MB used,  2231.17 MB free, 16190.46 MB total
+[2023.06.10-23.30.49:498][  0]LogMemory: Virtual Memory: 29581.03 MB used,  16667.37 MB free, 46248.40 MB total
+[2023.06.10-23.30.49:498][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2023.06.10-23.30.49:508][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.06.10-23.30.49:548][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2023.06.10-23.30.49:552][  0]LogInit: Using OS detected language (de-DE).
+[2023.06.10-23.30.49:552][  0]LogInit: Using OS detected locale (de-AT).
+[2023.06.10-23.30.49:576][  0]LogTextLocalizationManager: No specific localization for 'de-DE' exists, so 'de' will be used for the language.
+[2023.06.10-23.30.49:576][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/de/Editor.locres' could not be opened for reading!
+[2023.06.10-23.30.49:576][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/de/EditorTutorials.locres' could not be opened for reading!
+[2023.06.10-23.30.49:577][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/de/Keywords.locres' could not be opened for reading!
+[2023.06.10-23.30.49:577][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/de/Category.locres' could not be opened for reading!
+[2023.06.10-23.30.49:577][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/de/ToolTips.locres' could not be opened for reading!
+[2023.06.10-23.30.49:578][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/de/PropertyNames.locres' could not be opened for reading!
+[2023.06.10-23.30.49:578][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/de/Engine.locres' could not be opened for reading!
+[2023.06.10-23.30.49:607][  0]LogInit: Setting process to per monitor DPI aware
+[2023.06.10-23.30.49:631][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2023.06.10-23.30.49:631][  0]LogWindowsTextInputMethodSystem:   - Deutsch (Österreich) - (Keyboard).
+[2023.06.10-23.30.49:631][  0]LogWindowsTextInputMethodSystem:   - Deutsch (Österreich) - Fingereingabe - Korrektur (TSF IME).
+[2023.06.10-23.30.49:631][  0]LogWindowsTextInputMethodSystem: Activated input method: Deutsch (Österreich) - (Keyboard).
+[2023.06.10-23.30.49:659][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.06.10-23.30.49:659][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.06.10-23.30.50:011][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2023.06.10-23.30.50:016][  0]LogD3D12RHI: [Aftermath] Aftermath crash dumping enabled
+[2023.06.10-23.30.50:016][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2023.06.10-23.30.50:130][  0]LogD3D12RHI: [Aftermath] Aftermath enabled and primed
+[2023.06.10-23.30.50:130][  0]LogD3D12RHI: [Aftermath] Aftermath resource tracking enabled
+[2023.06.10-23.30.50:130][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2023.06.10-23.30.50:130][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2023.06.10-23.30.50:130][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2023.06.10-23.30.50:130][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2023.06.10-23.30.50:130][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2023.06.10-23.30.50:130][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2023.06.10-23.30.50:130][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2023.06.10-23.30.50:130][  0]LogD3D12RHI: D3D12 ray tracing tier 1.0 is supported.
+[2023.06.10-23.30.50:130][  0]LogD3D12RHI: D3D12 ray tracing tier 1.1 is supported.
+[2023.06.10-23.30.50:130][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2023.06.10-23.30.50:130][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2023.06.10-23.30.50:130][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2023.06.10-23.30.50:130][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2023.06.10-23.30.50:130][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2023.06.10-23.30.50:186][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
+[2023.06.10-23.30.50:196][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
+[2023.06.10-23.30.50:222][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
+[2023.06.10-23.30.50:238][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2023.06.10-23.30.50:238][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2023.06.10-23.30.50:302][  0]LogD3D12RHI:     GPU DeviceId: 0x1f11 (for the marketing name, search the web for "GPU Device Id")
+[2023.06.10-23.30.50:302][  0]LogWindows: Attached monitors:
+[2023.06.10-23.30.50:302][  0]LogWindows:     resolution: 3840x2160, work area: (0, 0) -> (3840, 2040), device: '\\.\DISPLAY1' [PRIMARY]
+[2023.06.10-23.30.50:303][  0]LogWindows:     resolution: 3840x1100, work area: (0, 2160) -> (3840, 3260), device: '\\.\DISPLAY2'
+[2023.06.10-23.30.50:303][  0]LogWindows:     resolution: 1920x1080, work area: (1400, -1080) -> (3320, 0), device: '\\.\DISPLAY4'
+[2023.06.10-23.30.50:303][  0]LogWindows: Found 3 attached monitors.
+[2023.06.10-23.30.50:303][  0]LogWindows: EnumDisplayDevices:
+[2023.06.10-23.30.50:303][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1), name: '\\.\DISPLAY1'
+[2023.06.10-23.30.50:304][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:1), name: '\\.\DISPLAY2'
+[2023.06.10-23.30.50:304][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0), name: '\\.\DISPLAY3'
+[2023.06.10-23.30.50:304][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:1), name: '\\.\DISPLAY4'
+[2023.06.10-23.30.50:304][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2023.06.10-23.30.50:304][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2023.06.10-23.30.50:304][  0]LogD3D12RHI:   Driver Version: 531.18 (internal:31.0.15.3118, unified:531.18)
+[2023.06.10-23.30.50:304][  0]LogD3D12RHI:      Driver Date: 2-24-2023
+[2023.06.10-23.30.50:304][  0]LogRHI: Texture pool is 3276 MB (70% of 4680 MB)
+[2023.06.10-23.30.50:304][  0]LogD3D12RHI: Async texture creation enabled
+[2023.06.10-23.30.50:304][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2023.06.10-23.30.50:340][  0]LogRHI: GeForceNow SDK initialized: 0
+[2023.06.10-23.30.50:353][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/DungeonGourmet.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/Intermediate/TurnkeyReport_0.log" -log="C:/dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/Intermediate/TurnkeyLog_0.log" -project="C:/dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/DungeonGourmet.uproject"  -platform=all'
+[2023.06.10-23.30.50:353][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/DungeonGourmet.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/Intermediate/TurnkeyReport_0.log" -log="C:/dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/Intermediate/TurnkeyLog_0.log" -project="C:/dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/DungeonGourmet.uproject"  -platform=all" ]
+[2023.06.10-23.30.50:394][  0]LogTextureFormatETC2: Display: ETC2 Texture loading DLL: TextureConverter.dll
+[2023.06.10-23.30.50:416][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.5
+[2023.06.10-23.30.50:416][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2023.06.10-23.30.50:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.06.10-23.30.50:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.06.10-23.30.50:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.06.10-23.30.50:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.06.10-23.30.50:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.06.10-23.30.50:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.06.10-23.30.50:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.06.10-23.30.50:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.06.10-23.30.50:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.06.10-23.30.50:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.06.10-23.30.50:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2023.06.10-23.30.50:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2023.06.10-23.30.50:477][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.06.10-23.30.50:477][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.06.10-23.30.50:483][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.06.10-23.30.50:483][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2023.06.10-23.30.50:483][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.06.10-23.30.50:483][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.06.10-23.30.50:487][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2023.06.10-23.30.50:487][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2023.06.10-23.30.50:487][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2023.06.10-23.30.50:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.06.10-23.30.50:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.06.10-23.30.50:500][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.06.10-23.30.50:500][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2023.06.10-23.30.50:500][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.06.10-23.30.50:500][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.06.10-23.30.50:500][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2023.06.10-23.30.50:513][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.06.10-23.30.50:517][  0]LogTargetPlatformManager: Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+[2023.06.10-23.30.50:517][  0]LogTargetPlatformManager: Loaded format module AudioFormatADPCM
+[2023.06.10-23.30.50:517][  0]LogTargetPlatformManager:   ADPCM
+[2023.06.10-23.30.50:517][  0]LogTargetPlatformManager:   PCM
+[2023.06.10-23.30.50:522][  0]LogTargetPlatformManager: Loaded format module AudioFormatBink
+[2023.06.10-23.30.50:522][  0]LogTargetPlatformManager:   BINKA
+[2023.06.10-23.30.50:522][  0]LogTargetPlatformManager: Loaded format module AudioFormatOgg
+[2023.06.10-23.30.50:522][  0]LogTargetPlatformManager:   OGG
+[2023.06.10-23.30.50:522][  0]LogTargetPlatformManager: Loaded format module AudioFormatOpus
+[2023.06.10-23.30.50:522][  0]LogTargetPlatformManager:   OPUS
+[2023.06.10-23.30.50:649][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2023.06.10-23.30.50:663][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2023.06.10-23.30.50:663][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2023.06.10-23.30.50:663][  0]LogTargetPlatformManager:   SF_METAL
+[2023.06.10-23.30.50:663][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2023.06.10-23.30.50:663][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2023.06.10-23.30.50:663][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2023.06.10-23.30.50:663][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2023.06.10-23.30.50:663][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2023.06.10-23.30.50:663][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2023.06.10-23.30.50:663][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2023.06.10-23.30.50:663][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2023.06.10-23.30.50:663][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2023.06.10-23.30.50:663][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2023.06.10-23.30.50:663][  0]LogTargetPlatformManager:   D3D_ES3_1_HOLOLENS
+[2023.06.10-23.30.50:663][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2023.06.10-23.30.50:663][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2023.06.10-23.30.50:663][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2023.06.10-23.30.50:673][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2023.06.10-23.30.50:673][  0]LogTargetPlatformManager:   VVM_1_0
+[2023.06.10-23.30.50:673][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2023.06.10-23.30.50:674][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2023.06.10-23.30.50:674][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2023.06.10-23.30.50:674][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2023.06.10-23.30.50:674][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2023.06.10-23.30.50:674][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2023.06.10-23.30.50:675][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2023.06.10-23.30.50:676][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2023.06.10-23.30.50:676][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+[2023.06.10-23.30.50:677][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2023.06.10-23.30.50:684][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.06.10-23.30.50:684][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2023.06.10-23.30.50:684][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.06.10-23.30.50:684][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2023.06.10-23.30.50:709][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1230 MiB)
+[2023.06.10-23.30.50:709][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.06.10-23.30.50:709][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2023.06.10-23.30.50:771][  0]LogDerivedDataCache: Speed tests for C:/Users/nicow/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.06 seconds
+[2023.06.10-23.30.50:771][  0]LogDerivedDataCache: Display: Performance to C:/Users/nicow/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.24ms. RandomReadSpeed=18.01MBs, RandomWriteSpeed=154.19MBs. Assigned SpeedClass 'Local'
+[2023.06.10-23.30.50:773][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nicow/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.06.10-23.30.50:773][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.06.10-23.30.50:773][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2023.06.10-23.30.50:783][  0]LogVirtualization: VirtualizationSystem name found in ini file: None
+[2023.06.10-23.30.50:783][  0]LogVirtualization: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2023.06.10-23.30.50:791][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/Intermediate/Shaders/WorkingDirectory/11764/).
+[2023.06.10-23.30.50:791][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nicow/AppData/Local/Temp/UnrealShaderWorkingDir/822A6BA645EE5DC47BC4E19D487F5F43/'.
+[2023.06.10-23.30.50:792][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.06.10-23.30.50:792][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 9 workers.
+[2023.06.10-23.30.52:609][  0]LogSlate: Using FreeType 2.10.0
+[2023.06.10-23.30.52:610][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.06.10-23.30.52:670][  0]LogAssetRegistry: FAssetRegistry took 0.0155 seconds to start up
+[2023.06.10-23.30.52:688][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2023.06.10-23.30.53:048][  0]LogSerialization: UsePackageTrailer: 'false'
+[2023.06.10-23.30.53:050][  0]LogTexture: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2023.06.10-23.30.53:371][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2023.06.10-23.30.53:371][  0]LogDeviceProfileManager: Active device profile: [00000B865FB401C0][00000B8657CE0000 50] WindowsEditor
+[2023.06.10-23.30.53:371][  0]LogDeviceProfileManager: Profiles: [00000B865F56FDC0][00000B8657CE2800 50] Windows, [00000B865FB401C0][00000B8657CE0000 50] WindowsEditor, [00000B865FB42300][00000B8657CEA000 50] WindowsServer, [00000B865FB42140][00000B864A1E7800 50] WindowsClient, [00000B865FB41F80][00000B8657C67800 50] IOS, [00000B865FB41DC0][00000B8657CE5000 50] iPadAir2, [00000B865FB455C0][00000B865FB00000 50] IPadPro, [00000B865FB45940][00000B865FB02800 50] iPadAir3, [00000B865FB43800][00000B865FB07800 50] iPadAir4, [00000B865FB40540][00000B865FB0A000 50] iPadMini4, [00000B865FB416C0][00000B865FB0C800 50] iPadMini5, [00000B865FB44B40][00000B8657C65000 50] iPadMini6, [00000B865FB48340][00000B865FB12800 50] iPhone6S, [00000B865FB486C0][00000B865FB10000 50] iPhone7, [00000B865FB48A40][00000B865FB15000 50] iPodTouch7, [00000B865FB43F00][00000B865FB1A000 50] iPhone6SPlus, [00000B865FB47FC0][00000B865FB1C800 50] iPhone7Plus, [00000B865FB40FC0][00000B865FB05000 50] iPhoneSE, [00000B865FB43480][00000B865FB17800 50] iPhone8, [00000B865FB47E00][00000B865FB20000 50] iPhone8Plus, [00000B865FB40700][00000B865FB25000 50] iPhoneX, [00000B865FB43D40][00000B865FB27800 50] iPhoneXS, [00000B865FB47C40][00000B865FB2A000 50] iPhoneXSMax, [00000B865FB43640][00000B865FB2C800 50] iPhoneXR, [00000B865FB42F40][00000B86595AC800 50] iPhone11, [00000B865FB47A80][00000B865FB50000 50] iPhone11Pro, [00000B865FB44980][00000B865FB55000 50] iPhone11ProMax, [00000B865FB478C0][00000B865FB57800 50] iPhoneSE2, [00000B865FB45240][00000B865FB5A000 50] iPhone12Mini, [00000B865FB48180][00000B865FB5C800 50] iPhone12, [00000B865FB41500][00000B865FB22800 50] iPhone12Pro, [00000B865FB45780][00000B865FB60000 50] iPhone12ProMax, [00000B865FB41340][00000B865FB65000 50] iPhone13Mini, [00000B865FB47700][00000B865FB67800 50] iPhone13, [00000B865FB447C0][00000B865FB6A000 50] iPhone13Pro, [00000B865FB48500][00000B865FB6C800 50] iPhone13ProMax, [00000B865FB42840][00000B865FB52800 50] iPadPro105, [00000B865FB44280][00000B865FB70000 50] iPadPro129, [00000B865FB40E00][00000B865FB75000 50] iPadPro97, [00000B865FB47380][00000B865FB77800 50] iPadPro2_129, [00000B865FB44D00][00000B865FB7A000 50] iPad5, [00000B865FB46040][00000B865FB7C800 50] iPad6, [00000B865FB41880][00000B865FB62800 50] iPad7, [00000B865FB40000][00000B865FB80000 50] iPad8, [00000B865FB471C0][00000B865FB85000 50] iPad9, [00000B865FB432C0][00000B865FB87800 50] iPadPro11, [00000B865FB48880][00000B865FB8A000 50] iPadPro2_11, [00000B865FB408C0][00000B865FB8C800 50] iPadPro3_11, [00000B865FB41C00][00000B865FB72800 50] iPadPro3_129, [00000B865FB42A00][00000B865FB90000 50] iPadPro4_129, [00000B865FB40A80][00000B865FB95000 50] iPadPro5_129, [00000B865FB46580][00000B865FB97800 50] AppleTV, [00000B865FB44600][00000B865FB9A000 50] AppleTV4K, [00000B865FB45CC0][00000B865FB9C800 50] TVOS, [00000B865FB4A640][00000B865FBA0000 50] Mac, [00000B865FB4A9C0][00000B865FBA2800 50] MacEditor, [00000B865FB40C40][00000B865FBA7800 50] MacClient, [00000B865FB45080][00000B865FBAA000 50] MacServer, [00000B865FB4AD40][00000B865FB82800 50] Linux, [00000B865FB4B0C0][00000B865FB92800 50] LinuxEditor, [00000B865FB49680][00000B865FBAC800 50] LinuxArm64Editor, [00000B865FB40380][00000B865FBB0000 50] LinuxArm64, [00000B865FB46C80][00000B865FBB5000 50] LinuxClient, [00000B865FB49A00][00000B865FBB7800 50] LinuxArm64Client, [00000B865FB44440][00000B865FBBA000 50] LinuxServer, [00000B865FB49840][00000B865FBBC800 50] LinuxArm64Server, [00000B865FB44EC0][00000B865FBA5000 50] Android, [00000B865FB49300][00000B865FBD0000 50] Android_Preview_OpenGL, [00000B865FB45B00][00000B865FBD5000 50] Android_Preview_Vulkan, [00000B865FB463C0][00000B865FBD7800 50] Android_Low, [00000B865FB4A480][00000B865FBDA000 50] Android_Mid, [00000B865FB46200][00000B865FBDC800 50] Android_High, [00000B865FB46E40][00000B865FBB2800 50] Android_Default, [00000B865FB4BB40][00000B865FBE0000 50] Android_Adreno4xx, [00000B865FB49140][00000B865FBE5000 50] Android_Adreno5xx_Low, [00000B865FB46900][00000B865FBE7800 50] Android_Adreno5xx, [00000B865FB43100][00000B865FBEA000 50] Android_Adreno6xx, [00000B865FB49BC0][00000B865FBEC800 50] Android_Adreno6xx_Vulkan, [00000B865FB4AB80][00000B865FBD2800 50] Android_Adreno7xx, [00000B865FB48C00][00000B865FBF0000 50] Android_Adreno7xx_Vulkan, [00000B865FB42D80][00000B865FBF5000 50] Android_Mali_T6xx, [00000B865FB45E80][00000B865FBF7800 50] Android_Mali_T7xx, [00000B865FB48F80][00000B865FBFA000 50] Android_Mali_T8xx, [00000B865FB46740][00000B865FBFC800 50] Android_Mali_G71, [00000B865FB43B80][00000B865FBE2800 50] Android_Mali_G72, [00000B865FB4B280][00000B865FC00000 50] Android_Mali_G72_Vulkan, [00000B865FB47540][00000B865FC05000 50] Android_Mali_G76, [00000B865FB48DC0][00000B865FC07800 50] Android_Mali_G76_Vulkan, [00000B865FB42BC0][00000B865FC0A000 50] Android_Mali_G77, [00000B865FB4AF00][00000B865FC0C800 50] Android_Mali_G77_Vulkan, [00000B865FB4BD00][00000B865FBF2800 50] Android_Mali_G78, [00000B865FB49F40][00000B865FC10000 50] Android_Mali_G78_Vulkan, [00000B865FB41A40][00000B865FC15000 50] Android_Mali_G710, [00000B865FB4BEC0][00000B865FC17800 50] Android_Mali_G710_Vulkan, [00000B865FB4A100][00000B865FC1A000 50] Android_Xclipse_920, [00000B865FB4A2C0][00000B865FC1C800 50] Android_Xclipse_920_Vulkan, [00000B865FB4C080][00000B865FC02800 50] Android_Vulkan_SM5, [00000B865FB42680][00000B865FC20000 50] Android_PowerVR_G6xxx, [00000B865FB4CCC0][00000B865FC25000 50] Android_PowerVR_GT7xxx, [00000B865FB439C0][00000B865FC27800 50] Android_PowerVR_GE8xxx, [00000B865FB4C5C0][00000B865FC2A000 50] Android_PowerVR_GM9xxx, [00000B865FB4CE80][00000B865FC2C800 50] Android_PowerVR_GM9xxx_Vulkan, [00000B865FB4B440][00000B865FC12800 50] Android_TegraK1, [00000B865FB4B600][00000B865FC30000 50] Android_Unknown_Vulkan, [00000B865FB4D040][00000B865FC35000 50] Oculus_Quest, [00000B865FB4B980][00000B865FC37800 50] Oculus_Quest2, [00000B865FB4B7C0][00000B865FC3A000 50] HoloLens, 
+[2023.06.10-23.30.53:371][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2023.06.10-23.30.53:411][  0]LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2023.06.10-23.30.53:758][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.06.10-23.30.53:758][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.06.10-23.30.53:758][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.06.10-23.30.53:758][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.06.10-23.30.53:759][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.06.10-23.30.53:800][  0]LogNetVersion: DungeonGourmet 1.0.0, NetCL: 19505902, EngineNetVer: 23, GameNetVer: 0 (Checksum: 524203842)
+[2023.06.10-23.30.54:040][  0]LogSlate: Border
+[2023.06.10-23.30.54:040][  0]LogSlate: BreadcrumbButton
+[2023.06.10-23.30.54:040][  0]LogSlate: Default
+[2023.06.10-23.30.54:040][  0]LogSlate: Icons.Save
+[2023.06.10-23.30.54:040][  0]LogSlate: Icons.Toolbar.Settings
+[2023.06.10-23.30.54:040][  0]LogSlate: ListView
+[2023.06.10-23.30.54:040][  0]LogSlate: SoftwareCursor_CardinalCross
+[2023.06.10-23.30.54:040][  0]LogSlate: SoftwareCursor_Grab
+[2023.06.10-23.30.54:040][  0]LogSlate: TableView.DarkRow
+[2023.06.10-23.30.54:040][  0]LogSlate: TableView.Row
+[2023.06.10-23.30.54:040][  0]LogSlate: TreeView
+[2023.06.10-23.30.54:449][  0]SourceControl: Source control is disabled
+[2023.06.10-23.30.54:496][  0]SourceControl: Source control is disabled
+[2023.06.10-23.30.54:496][  0]SourceControl: Source control is disabled
+[2023.06.10-23.30.54:685][  0]LogUObjectArray: 20557 objects as part of root set at end of initial load.
+[2023.06.10-23.30.54:685][  0]LogUObjectAllocator: 5584256 out of 0 bytes used by permanent object pool.
+[2023.06.10-23.30.54:685][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.06.10-23.30.55:792][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 0C9FC8D840734FBCD84467A1245A3323 | Instance: 3127336744F314DECB4BD685B17F8608 (LAPTOP-6I9M3OVM-11764).
+[2023.06.10-23.30.55:932][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.06.10-23.30.55:951][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.06.10-23.30.55:986][  0]LogPython: Using Python 3.9.7
+[2023.06.10-23.30.57:410][  0]SourceControl: Source control is disabled
+[2023.06.10-23.30.57:425][  0]SourceControl: Source control is disabled
+[2023.06.10-23.30.57:452][  0]SourceControl: Source control is disabled
+[2023.06.10-23.30.57:467][  0]LogUProjectInfo: Found projects:
+[2023.06.10-23.30.58:512][  0]LogOpenImageDenoise: OIDN starting up
+[2023.06.10-23.30.58:641][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.06.10-23.30.58:686][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.06.10-23.30.58:686][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.06.10-23.30.58:920][  0]LogCollectionManager: Loaded 0 collections in 0.003098 seconds
+[2023.06.10-23.30.59:164][  0]LogFileCache: Scanning file cache for directory 'C:/dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/Saved/Collections/' took 0.00s
+[2023.06.10-23.30.59:164][  0]LogFileCache: Scanning file cache for directory 'C:/dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/Content/Developers/nicow/Collections/' took 0.00s
+[2023.06.10-23.30.59:164][  0]LogFileCache: Scanning file cache for directory 'C:/dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/Content/Collections/' took 0.00s
+[2023.06.10-23.30.59:751][  0]LogEngine: Initializing Engine...
+[2023.06.10-23.30.59:781][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2023.06.10-23.30.59:789][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2023.06.10-23.31.00:187][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.06.10-23.31.00:188][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.06.10-23.31.00:212][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.10-23.31.00:275][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.06.10-23.31.00:277][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.06.10-23.31.00:311][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2023.06.10-23.31.00:312][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2023.06.10-23.31.00:312][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2023.06.10-23.31.00:313][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.06.10-23.31.00:313][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.06.10-23.31.00:315][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.10-23.31.00:315][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.10-23.31.00:315][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.10-23.31.00:315][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.10-23.31.00:315][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.10-23.31.00:315][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.10-23.31.00:315][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.10-23.31.00:316][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.10-23.31.00:318][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.10-23.31.00:319][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.10-23.31.00:319][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.10-23.31.00:337][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.10-23.31.00:399][  0]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis Pro Wireless Game)
+[2023.06.10-23.31.00:402][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.10-23.31.00:406][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.10-23.31.00:407][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.10-23.31.00:409][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2023.06.10-23.31.00:409][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.06.10-23.31.00:411][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.06.10-23.31.00:411][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2023.06.10-23.31.00:411][  0]LogInit: FAudioDevice initialized.
+[2023.06.10-23.31.00:412][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.06.10-23.31.00:412][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.06.10-23.31.00:412][  0]LogInit: Texture streaming: Enabled
+[2023.06.10-23.31.00:459][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.0.3-20979098+++UE5+Release-5.0
+[2023.06.10-23.31.00:478][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.06.10-23.31.00:478][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={038BC749-4C81-5657-553A-EABFC42B1C1A}
+[2023.06.10-23.31.00:523][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2023.06.10-23.31.00:545][  0]LogLiveCoding: Display: Starting LiveCoding
+[2023.06.10-23.31.00:545][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2023.06.10-23.31.03:278][  0]LogLiveCoding: Display: First instance in process group "UE_DungeonGourmet_0x7eeb0f4b", spawning console
+[2023.06.10-23.31.03:278][  0]LogLiveCoding: Display: Waiting for server
+[2023.06.10-23.31.03:278][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2023.06.10-23.31.03:329][  0]LogInit: Transaction tracking system initialized
+[2023.06.10-23.31.03:487][  0]BlueprintLog: New page: Editor Load
+[2023.06.10-23.31.03:858][  0]LocalizationService: Localization service is disabled
+[2023.06.10-23.31.03:965][  0]TimingProfiler: Initialize
+[2023.06.10-23.31.03:966][  0]TimingProfiler: OnSessionChanged
+[2023.06.10-23.31.03:966][  0]LoadingProfiler: Initialize
+[2023.06.10-23.31.03:966][  0]LoadingProfiler: OnSessionChanged
+[2023.06.10-23.31.03:968][  0]NetworkingProfiler: Initialize
+[2023.06.10-23.31.03:971][  0]NetworkingProfiler: OnSessionChanged
+[2023.06.10-23.31.03:971][  0]MemoryProfiler: Initialize
+[2023.06.10-23.31.03:971][  0]MemoryProfiler: OnSessionChanged
+[2023.06.10-23.31.05:554][  0]LogFileCache: Scanning file cache for directory 'C:/dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/Content/' took 0.04s
+[2023.06.10-23.31.05:554][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2023.06.10-23.31.05:704][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.06.10-23.31.05:711][  0]SourceControl: Source control is disabled
+[2023.06.10-23.31.05:712][  0]LogUnrealEdMisc: Loading editor; pre map load, took 20.261
+[2023.06.10-23.31.05:713][  0]Cmd: MAP LOAD FILE="../../../../../../dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/Content/Scenes/TutorialScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.06.10-23.31.05:716][  0]LightingResults: New page: Lighting Build
+[2023.06.10-23.31.05:733][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.06.10-23.31.05:735][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.10-23.31.05:737][  0]MapCheck: New page: Map Check
+[2023.06.10-23.31.05:737][  0]LightingResults: New page: Lighting Build
+[2023.06.10-23.31.05:746][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.10-23.31.05:757][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.06.10-23.31.06:660][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'TutorialScene'.
+[2023.06.10-23.31.06:660][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.06.10-23.31.06:660][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.10-23.31.06:662][  0]LogAIModule: Creating AISystem for world TutorialScene
+[2023.06.10-23.31.06:713][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.06.10-23.31.06:736][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.06.10-23.31.06:736][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.06.10-23.31.06:738][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,258ms to complete.
+[2023.06.10-23.31.06:738][  0]LogFileHelpers: Loading map 'TutorialScene' took 1.025
+[2023.06.10-23.31.06:802][  0]LogUnrealEdMisc: Total Editor Startup Time, took 21.351
+[2023.06.10-23.31.06:802][  0]LogShaderCompilers: Display: ================================================
+[2023.06.10-23.31.06:802][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.06.10-23.31.06:802][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2023.06.10-23.31.06:802][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2023.06.10-23.31.06:802][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2023.06.10-23.31.06:802][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.06.10-23.31.06:802][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.06.10-23.31.06:802][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.06.10-23.31.06:802][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.06.10-23.31.06:802][  0]LogShaderCompilers: Display: ================================================
+[2023.06.10-23.31.06:997][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.10-23.31.07:004][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.10-23.31.07:010][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.10-23.31.07:016][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.10-23.31.07:126][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2023.06.10-23.31.07:126][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.06.10-23.31.07:128][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2023.06.10-23.31.07:128][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.06.10-23.31.07:130][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2023.06.10-23.31.07:130][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.06.10-23.31.07:132][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2023.06.10-23.31.07:132][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.06.10-23.31.07:135][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2023.06.10-23.31.07:136][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.06.10-23.31.07:138][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2023.06.10-23.31.07:138][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.06.10-23.31.07:139][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2023.06.10-23.31.07:140][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.06.10-23.31.07:142][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2023.06.10-23.31.07:142][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.06.10-23.31.07:144][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2023.06.10-23.31.07:144][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.06.10-23.31.07:147][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2023.06.10-23.31.07:147][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.06.10-23.31.07:148][  0]LogFeaturePack: Error: Error in Feature pack C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Invalid Json Token. Line: 43 Ch: 4
+[2023.06.10-23.31.07:527][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.06.10-23.31.07:530][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.06.10-23.31.07:531][  0]LogSlate: Took 0.000694 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.06.10-23.31.07:550][  0]LogViewport: Scene viewport resized to 1762x942, mode Windowed.
+[2023.06.10-23.31.08:601][  0]LogStall: Startup...
+[2023.06.10-23.31.08:604][  0]LogStall: Startup complete.
+[2023.06.10-23.31.08:626][  0]LogLoad: (Engine Initialization) Total time: 23.18 seconds
+[2023.06.10-23.31.08:626][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.06.10-23.31.08:682][  0]LogAssetRegistry: Asset discovery search completed in 16.0147 seconds
+[2023.06.10-23.31.08:699][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2023.06.10-23.31.08:728][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.06.10-23.31.09:681][  3]LogSlate: Took 0.000585 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.06.10-23.31.11:073][  8]LogNavigationDataBuild: Navigation data generation finished in /Game/Scenes/TutorialScene.
+[2023.06.10-23.31.13:200][120]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/VFX/Bloodsplosion/Bloodsplosion.Bloodsplosion) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2023.06.10-23.31.13:900][120]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/VFX/Bloodsplosion/Bloodsplosion.Bloodsplosion
+[2023.06.10-23.31.14:208][120]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.10-23.31.14:263][120]LogTexture: Display: Waiting for textures to be ready 0/1 (/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1) ...
+[2023.06.10-23.31.14:455][120]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.10-23.31.14:821][120]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/VFX/Bloodsplosion/m_blood.m_blood) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2023.06.10-23.31.14:825][120]LogMaterial: Display: Missing cached shadermap for m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 26FFF607D80712F981524887E059F56C3F0D0501), compiling. 
+[2023.06.10-23.31.14:918][120]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/VFX/Bloodsplosion/m_blood.m_blood
+[2023.06.10-23.31.14:923][120]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: FFD24DA53765798BCE201B8BAA7EBAF21CFC9476), compiling. 
+[2023.06.10-23.31.14:960][120]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.10-23.31.15:166][120]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: CF4E5994773963C6583AE92F217E58C15331B8A7), compiling. 
+[2023.06.10-23.31.15:174][120]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 77BD0A16C31BB16CABFBA82CA6189760B86953AC), compiling. 
+[2023.06.10-23.31.15:669][120]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.31.15:670][120]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.31.15:670][120]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.31.15:966][120]LogNiagara: Warning: For some reason we are reporting that /Game/VFX/Bloodsplosion/Bloodsplosion.Bloodsplosion:SystemSpawnScript is in sync even though AreScriptAndSourceSynchronized returned false!
+[2023.06.10-23.31.15:971][120]LogNiagara: Warning: For some reason we are reporting that /Game/VFX/Bloodsplosion/Bloodsplosion.Bloodsplosion:SystemUpdateScript is in sync even though AreScriptAndSourceSynchronized returned false!
+[2023.06.10-23.31.16:013][120]LogSlate: Took 0.001159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.06.10-23.31.16:033][120]LogViewport: Scene viewport resized to 745x856, mode Windowed.
+[2023.06.10-23.31.19:377][158]LogNiagara: Compiling System NiagaraSystem /Game/VFX/Bloodsplosion/Bloodsplosion.Bloodsplosion took 5.595700 sec (time since issued), 11.433069 sec (combined shader worker time).
+[2023.06.10-23.31.19:848][167]39636_Bloodsplosion_MessageLog: System successfully compiled.
+[2023.06.10-23.31.21:843][213]LogSlate: Took 0.001981 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.06.10-23.31.21:890][213]LogSlate: Took 0.000829 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.06.10-23.31.22:444][227]MaterialEditorStats: Texture samplers: 2/16
+[2023.06.10-23.31.22:444][227]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.31.22:444][227]MaterialEditorStats: Shader Count: 2
+[2023.06.10-23.31.38:375][561]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\nicow\Downloads\blood.png)
+[2023.06.10-23.31.38:412][561]LogTexture: Display: Building textures: /Game/VFX/Bloodsplosion/blood.blood (TFO_AutoDXT, 1080X1080 X1X1) (Required Memory Estimate: 22.247314 MB), EncodeSpeed: Fast
+[2023.06.10-23.31.38:412][561]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SGraphPanel [SGraphEditorImpl.cpp(668)].
+[2023.06.10-23.31.41:732][604]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 38755EF3330E578DEEBA6B5E781FE2FE96135FCA), compiling. 
+[2023.06.10-23.31.41:737][604]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: EDD8799BA6DD8D24C3384965C23CAC227D7A8D0D), compiling. 
+[2023.06.10-23.31.41:744][604]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: F16C50EB7A9FE70F783D7AD1378AE3508114DD77), compiling. 
+[2023.06.10-23.31.42:963][639]LogMaterialEditor: Saving and Compiling material m_blood
+[2023.06.10-23.31.43:706][639]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: E79CAFA689CFB2C3E108DAE29D2DB3DC0E719EF2), compiling. 
+[2023.06.10-23.31.43:721][639]LogMaterial: Display: Missing cached shadermap for m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 2333E658A4A005398021908C906D2F2B24839687), compiling. 
+[2023.06.10-23.31.43:786][639]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.06.10-23.31.44:043][639]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.06.10-23.31.44:216][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VFX/Bloodsplosion/m_blood" FILE="../../../../../../dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/Content/VFX/Bloodsplosion/m_blood.uasset" SILENT=true
+[2023.06.10-23.31.44:226][639]LogPackageLocalizationCache: Processed 31 localized package path(s) for 1 prioritized culture(s) in 0.005756 seconds
+[2023.06.10-23.31.44:240][639]LogSavePackage: Moving output files for package: /Game/VFX/Bloodsplosion/m_blood
+[2023.06.10-23.31.44:240][639]LogSavePackage: Moving '../../../../../../dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/Saved/m_bloodB20F405A4A5B7C3F9E9EB4B6EA86150B.tmp' to '../../../../../../dev/FH/DevProjekt/Dungeon_Gourmet/DungeonGourmet/Content/VFX/Bloodsplosion/m_blood.uasset'
+[2023.06.10-23.31.44:264][639]AssetCheck: New page: Asset Save: m_blood
+[2023.06.10-23.31.44:265][639]LogContentValidation: Display: Validating Material /Game/VFX/Bloodsplosion/m_blood.m_blood
+[2023.06.10-23.31.44:269][639]MaterialEditorStats: Base pass shader: 123 instructions
+[2023.06.10-23.31.44:269][639]MaterialEditorStats: Base pass vertex shader: 108 instructions
+[2023.06.10-23.31.44:269][639]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.31.44:269][639]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.31.44:269][639]MaterialEditorStats: Shader Count: 16
+[2023.06.10-23.31.51:338][920]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 48A6786F279E717048F3B2583BDB06B4207997A1), compiling. 
+[2023.06.10-23.31.51:349][920]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 43BD38546D6F4B631BDC0BD7D519FA2560C5F06C), compiling. 
+[2023.06.10-23.31.51:353][920]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: F74DF8F1A3943F08893BACCC09805174C62EA650), compiling. 
+[2023.06.10-23.31.51:360][920]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.31.51:360][920]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.31.51:360][920]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.31.51:520][921]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: AAEC72587D6A8F12DF1A86F0FF011F6EECE932FC), compiling. 
+[2023.06.10-23.31.51:555][922]MaterialEditorStats: Texture samplers: 2/16
+[2023.06.10-23.31.51:555][922]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.31.51:555][922]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.31.56:821][ 99]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: CAFA54684231F28453C20F7B08A37B9631CE4262), compiling. 
+[2023.06.10-23.31.56:828][ 99]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 9FC8730C565ADCAABF3EA7AFEBA4633639AEEC17), compiling. 
+[2023.06.10-23.31.56:838][ 99]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.31.56:838][ 99]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.31.56:838][ 99]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.31.56:948][100]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: EA9D4C105F4AD89CCACD23B010D425D8F6AD420F), compiling. 
+[2023.06.10-23.31.56:976][101]MaterialEditorStats: Texture samplers: 2/16
+[2023.06.10-23.31.56:976][101]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.31.56:976][101]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.32.02:636][280]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: D08EC2D6764D4095CFB731FB98D191E658C6DDF6), compiling. 
+[2023.06.10-23.32.02:649][280]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.32.02:649][280]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.32.02:649][280]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.32.02:760][283]MaterialEditorStats: Texture samplers: 2/16
+[2023.06.10-23.32.02:760][283]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.32.02:760][283]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.32.03:850][319]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: CDCFB3D5E5480068B4CA890E6C28D49D28515649), compiling. 
+[2023.06.10-23.32.03:859][319]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.32.03:859][319]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.32.03:859][319]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.32.03:990][322]MaterialEditorStats: Texture samplers: 2/16
+[2023.06.10-23.32.03:990][322]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.32.03:990][322]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.32.25:048][304]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: A67705FF067EE7723B545954743424DC0867304C), compiling. 
+[2023.06.10-23.32.25:052][304]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 102CEB9439766B56640B5CF00C3AEE62D177BDAA), compiling. 
+[2023.06.10-23.32.25:058][304]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: A2493CA2252ACB08B36B0CC4BE76443C7DA40AAF), compiling. 
+[2023.06.10-23.32.25:060][304]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 5E611FA7338356F34900597353753856E43CBF03), compiling. 
+[2023.06.10-23.32.25:066][304]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.32.25:066][304]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.32.25:066][304]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.32.25:207][307]MaterialEditorStats: Texture samplers: 2/16
+[2023.06.10-23.32.25:207][307]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.32.25:207][307]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.32.29:533][447]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 9FC6A608B71CA9994BB22CD6C6A8F73EFA9DD3E5), compiling. 
+[2023.06.10-23.32.29:538][447]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.32.29:538][447]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.32.29:538][447]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.32.29:622][449]MaterialEditorStats: Texture samplers: 2/16
+[2023.06.10-23.32.29:622][449]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.32.29:622][449]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.32.41:299][942]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 9422D93EFB48D626FFC2B80EFA3295F33163730B), compiling. 
+[2023.06.10-23.32.41:305][942]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 8E5413754DA1AC350A7AFFA98441D68F8B6897C7), compiling. 
+[2023.06.10-23.32.41:317][942]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.32.41:317][942]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.32.41:317][942]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.32.43:511][992]MaterialEditorStats: Texture samplers: 2/16
+[2023.06.10-23.32.43:511][992]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.32.43:511][992]MaterialEditorStats: Shader Count: 2
+[2023.06.10-23.32.43:790][998]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 042C86FB8C50CF57A487FE22205D97993A0DE1F2), compiling. 
+[2023.06.10-23.32.43:794][998]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.32.43:794][998]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.32.43:794][998]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.32.43:883][  0]MaterialEditorStats: Texture samplers: 2/16
+[2023.06.10-23.32.43:885][  0]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.32.43:885][  0]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.32.53:501][422]LogDerivedDataCache: C:/Users/nicow/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.720 and deleted 0 file(s) with total size 0 MiB.
+[2023.06.10-23.33.17:495][230]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 620FB501597F4DDD808C3CB3D5C244707C94A8B4), compiling. 
+[2023.06.10-23.33.17:499][230]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 2FD0033FE2F78990294D77365D7988A800BADF1B), compiling. 
+[2023.06.10-23.33.17:502][230]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 564DBE4C6EB3891B339F30D01C8D82AFE7CE5010), compiling. 
+[2023.06.10-23.33.17:506][230]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 6DD7C3397B0B32F116D80BAFD9A460515567C82C), compiling. 
+[2023.06.10-23.33.17:513][230]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.33.17:513][230]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.33.17:513][230]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.33.21:729][320]MaterialEditorStats: Texture samplers: 2/16
+[2023.06.10-23.33.21:729][320]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.33.21:729][320]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.33.26:183][453]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 50798F0C952B64AF0D5C67C733A18CD03B61C670), compiling. 
+[2023.06.10-23.33.26:189][453]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.33.26:189][453]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.33.26:189][453]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.33.26:293][456]MaterialEditorStats: Texture samplers: 2/16
+[2023.06.10-23.33.26:293][456]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.33.26:293][456]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.33.38:357][864]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 74706F0583A56DD5CBC3F385D7C33101F69D83A9), compiling. 
+[2023.06.10-23.33.38:363][864]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E8CC875EA12168D20F2E59C3620B009ADF1112AD), compiling. 
+[2023.06.10-23.33.38:371][864]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.33.38:371][864]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.33.38:371][864]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.33.38:540][867]MaterialEditorStats: Texture samplers: 2/16
+[2023.06.10-23.33.38:540][867]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.33.38:540][867]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.33.39:484][893]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 833791B4182C4836981BC73BF0CA424C35FFCE48), compiling. 
+[2023.06.10-23.33.39:488][893]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 8CDE52AB0E55B5A7347097B45553620BF228E7B2), compiling. 
+[2023.06.10-23.33.39:491][893]LogSlate: Window 'Color Picker' being destroyed
+[2023.06.10-23.33.39:514][893]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.33.39:514][893]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.33.39:514][893]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.33.39:642][896]MaterialEditorStats: Texture samplers: 2/16
+[2023.06.10-23.33.39:642][896]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.06.10-23.33.39:642][896]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.33.42:130][976]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 0F67D8FB72B0FC120FC2F99652725C2EFD5177E1), compiling. 
+[2023.06.10-23.33.42:142][976]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.33.42:142][976]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.33.42:142][976]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.33.42:142][976]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.33.43:446][ 11]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.10-23.33.43:446][ 11]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.33.43:446][ 11]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.33.43:446][ 11]MaterialEditorStats: Shader Count: 1
+[2023.06.10-23.33.44:466][ 38]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.33.44:467][ 38]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.33.44:467][ 38]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.33.44:467][ 38]MaterialEditorStats: Shader Count: 3
+[2023.06.10-23.33.53:477][405]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 3E0BB35E0DFCA661698E1F0EBD2434C4AB0C6D9A), compiling. 
+[2023.06.10-23.33.53:484][405]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 8BE14761BB83430C6703AC1F29599224D2BC7E33), compiling. 
+[2023.06.10-23.33.53:491][405]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.33.53:491][405]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.33.53:491][405]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.33.53:491][405]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.33.53:626][406]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C6EC2043E5C3EB08C3B035AD3889C424E4ECD2DB), compiling. 
+[2023.06.10-23.33.53:663][407]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.33.53:663][407]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.33.53:663][407]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.33.53:663][407]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.33.56:674][485]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 80B3D41F15F1FFB4B4A61ABC01EAD8AEADAF8A98), compiling. 
+[2023.06.10-23.33.56:686][485]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.33.56:686][485]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.33.56:686][485]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.33.56:686][485]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.33.56:773][488]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.33.56:773][488]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.33.56:773][488]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.33.56:773][488]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.34.04:758][800]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: ECED758C44CAA2A83B6B62CD8D7CDAE0E8EDB823), compiling. 
+[2023.06.10-23.34.04:763][800]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: AC2007854C3C5CC31D651F011FBF0C0E903A1371), compiling. 
+[2023.06.10-23.34.04:772][800]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.34.04:772][800]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.34.04:772][800]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.34.04:772][800]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.34.04:951][803]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.34.04:951][803]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.34.04:951][803]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.34.04:951][803]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.34.12:364][ 69]LogWindows: LaunchURL https://docs.unrealengine.com/5.0/de//Engine/Rendering/Materials/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu_asset
+[2023.06.10-23.34.22:666][193]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 1BDA969BBA9AA82162EF2073118B38876C88CE75), compiling. 
+[2023.06.10-23.34.22:674][193]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: EA0DED38C3D53645F0FA679DEEF7C9457A04B92F), compiling. 
+[2023.06.10-23.34.22:678][193]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.34.22:678][193]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.34.22:678][193]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.34.22:678][193]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.34.24:065][228]LogShaderCompilers: Display: ================================================
+[2023.06.10-23.34.24:065][228]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.06.10-23.34.24:065][228]LogShaderCompilers: Display: Total job queries 211, among them cache hits 141 (66.82%)
+[2023.06.10-23.34.24:065][228]LogShaderCompilers: Display: Tracking 51 distinct input hashes that result in 31 distinct outputs (60.78%)
+[2023.06.10-23.34.24:065][228]LogShaderCompilers: Display: RAM used: 0.11 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2023.06.10-23.34.24:065][228]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.06.10-23.34.24:065][228]LogShaderCompilers: Display: Shaders Compiled: 41
+[2023.06.10-23.34.24:065][228]LogShaderCompilers: Display: Jobs assigned 54, completed 51 (94.44%)
+[2023.06.10-23.34.24:065][228]LogShaderCompilers: Display: Average time worker was idle: 25.00 s
+[2023.06.10-23.34.24:066][228]LogShaderCompilers: Display: Time job spent in pending queue: average 0.11 s, longest 1.05 s
+[2023.06.10-23.34.24:066][228]LogShaderCompilers: Display: Job execution time: average 3.64 s, max 8.20 s
+[2023.06.10-23.34.24:066][228]LogShaderCompilers: Display: Job life time (pending + execution): average 3.75 s, max 8.28
+[2023.06.10-23.34.24:066][228]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 28.02 s
+[2023.06.10-23.34.24:066][228]LogShaderCompilers: Display: Jobs were issued in 44 batches (only local compilation was used), average 1.23 jobs/batch
+[2023.06.10-23.34.24:066][228]LogShaderCompilers: Display: Average processing rate: 1.82 jobs/sec
+[2023.06.10-23.34.24:067][228]LogShaderCompilers: Display: Effective parallelization: 3.32 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.06.10-23.34.24:067][228]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.06.10-23.34.24:067][228]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 3.08 sec, max 3.08 sec, min 3.08 sec)
+[2023.06.10-23.34.24:067][228]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 2.97 sec, max 2.97 sec, min 2.97 sec)
+[2023.06.10-23.34.24:067][228]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 2.70 sec, max 2.70 sec, min 2.70 sec)
+[2023.06.10-23.34.24:067][228]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 2.69 sec, max 2.69 sec, min 2.69 sec)
+[2023.06.10-23.34.24:067][228]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 2.63 sec, max 2.63 sec, min 2.63 sec)
+[2023.06.10-23.34.24:067][228]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.06.10-23.34.24:067][228]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 21.18% of total time (compiled   10 times, average 1.97 sec, max 2.56 sec, min 1.18 sec)
+[2023.06.10-23.34.24:067][228]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.48% of total time (compiled   10 times, average 1.90 sec, max 2.60 sec, min 1.20 sec)
+[2023.06.10-23.34.24:067][228]LogShaderCompilers: Display:                                                 FLumenCardVS - 16.20% of total time (compiled    7 times, average 2.15 sec, max 2.81 sec, min 1.82 sec)
+[2023.06.10-23.34.24:067][228]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.55% of total time (compiled    8 times, average 0.88 sec, max 1.09 sec, min 0.71 sec)
+[2023.06.10-23.34.24:067][228]LogShaderCompilers: Display:                                               FNiagaraShader - 3.42% of total time (compiled    4 times, average 0.79 sec, max 1.24 sec, min 0.39 sec)
+[2023.06.10-23.34.24:067][228]LogShaderCompilers: Display: ================================================
+[2023.06.10-23.34.25:099][254]MaterialEditorStats: Texture samplers: 2/16
+[2023.06.10-23.34.25:099][254]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.34.25:099][254]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.34.25:099][254]MaterialEditorStats: Shader Count: 3
+[2023.06.10-23.34.34:988][568]LogViewport: Scene viewport resized to 1210x625, mode Windowed.
+[2023.06.10-23.34.35:390][568]LogViewport: Scene viewport resized to 3026x1564, mode Windowed.
+[2023.06.10-23.34.35:433][568]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 18446731401661980840
+[2023.06.10-23.34.35:434][568]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2023.06.10-23.34.35:680][568]LogViewport: Scene viewport resized to 2118x1094, mode Windowed.
+[2023.06.10-23.34.55:765][905]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 9FDBC3F08B0870F1168A3A6E176D68E5A58FE636), compiling. 
+[2023.06.10-23.34.55:776][905]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 563764FAE0DE7443353BF44A84E8D6EC581A3711), compiling. 
+[2023.06.10-23.34.55:781][905]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.34.55:781][905]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.34.55:781][905]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.34.55:781][905]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.34.57:924][943]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.10-23.34.57:924][943]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.34.57:924][943]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.34.57:924][943]MaterialEditorStats: Shader Count: 1
+[2023.06.10-23.34.59:855][989]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.34.59:855][989]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.34.59:855][989]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.34.59:855][989]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.35.12:642][336]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 98152289EBE995F63B2DB7AA7084BC539F153501), compiling. 
+[2023.06.10-23.35.12:650][336]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 50D92C1EAF6DA6D2AA6DE58C78876444BC6A2432), compiling. 
+[2023.06.10-23.35.12:656][336]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.35.12:656][336]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.35.12:656][336]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.35.12:656][336]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.35.13:872][361]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.10-23.35.13:872][361]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.35.13:873][361]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.35.13:873][361]MaterialEditorStats: Shader Count: 1
+[2023.06.10-23.35.15:207][390]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.35.15:207][390]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.35.15:208][390]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.35.15:208][390]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.35.39:293][996]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 0B3ABE5ECFBEEABC682F6490C5E55EF9048F6B06), compiling. 
+[2023.06.10-23.35.39:300][996]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: FAB73F583C2BF84A8A9A5882F5163CB41448B662), compiling. 
+[2023.06.10-23.35.39:304][996]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C8C4E8FE761A322B0201F229C7F2112EAA817FF3), compiling. 
+[2023.06.10-23.35.39:313][996]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.35.39:313][996]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.35.39:313][996]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.35.39:313][996]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.35.39:510][999]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.35.39:510][999]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.35.39:510][999]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.35.39:510][999]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.35.42:110][ 77]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 0DEACC426608A5B75345A35462B3FFD3DD71AF3F), compiling. 
+[2023.06.10-23.35.42:124][ 77]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.35.42:124][ 77]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.35.42:124][ 77]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.35.42:124][ 77]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.35.44:194][131]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.10-23.35.44:194][131]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.35.44:194][131]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.35.44:194][131]MaterialEditorStats: Shader Count: 1
+[2023.06.10-23.35.46:592][180]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.35.46:593][180]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.35.46:593][180]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.35.46:593][180]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.35.53:455][461]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 442F9C64678E4A14F8D931F2DC6552095EDA3E4A), compiling. 
+[2023.06.10-23.35.53:480][461]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.35.53:480][461]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.35.53:480][461]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.35.53:480][461]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.35.53:610][462]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E9CD4D5D2F44CAE99CE6AE66FBEF7E1ECCEDE662), compiling. 
+[2023.06.10-23.35.53:653][463]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.35.53:653][463]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.35.53:653][463]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.35.53:653][463]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.36.04:664][853]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 75769914EF576F99A7C51AD044E7697B9F81C531), compiling. 
+[2023.06.10-23.36.04:670][853]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 67AD7645B2B49E442D76C5D75CC25580B7667C99), compiling. 
+[2023.06.10-23.36.04:680][853]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.36.04:680][853]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.36.04:680][853]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.36.04:680][853]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.36.04:880][856]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.36.04:880][856]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.36.04:880][856]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.36.04:880][856]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.36.07:934][950]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 329D49E34FD88718167F30B669F9989B63F36500), compiling. 
+[2023.06.10-23.36.07:952][950]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.36.07:952][950]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.36.07:952][950]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.36.07:952][950]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.36.08:103][953]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.36.08:104][953]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.36.08:104][953]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.36.08:104][953]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.36.23:670][259]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 7AF0E207B8FD07B0CCD83DD76E8FC1FF0701D271), compiling. 
+[2023.06.10-23.36.23:684][259]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.36.23:684][259]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.36.23:684][259]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.36.23:684][259]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.36.23:858][262]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.36.23:858][262]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.36.23:858][262]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.36.23:858][262]MaterialEditorStats: Shader Count: 4
+[2023.06.10-23.37.08:057][968]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 57454EF1FC1E62EF226C5A0C3A51B738C034C7BC), compiling. 
+[2023.06.10-23.37.10:554][ 53]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 00ADF40EF7F80FB87F3C24961E04FA7485FDC50B), compiling. 
+[2023.06.10-23.37.10:561][ 53]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 3F5E8E273A501B1111014E7E467C26DC5D8EEE57), compiling. 
+[2023.06.10-23.37.10:569][ 53]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 70066785DECBB67465297A2D6CD013D0ABC64291), compiling. 
+[2023.06.10-23.37.10:586][ 53]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.37.10:586][ 53]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.37.10:586][ 53]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.37.10:586][ 53]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.37.13:167][103]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.10-23.37.13:168][103]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.37.13:168][103]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.37.13:168][103]MaterialEditorStats: Shader Count: 1
+[2023.06.10-23.37.15:311][141]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.37.15:311][141]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.37.15:311][141]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.37.15:311][141]MaterialEditorStats: Shader Count: 7
+[2023.06.10-23.37.26:656][449]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 5062EC11E7D55346F06C90E2400E2E035926BE10), compiling. 
+[2023.06.10-23.37.26:669][449]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 14EE5B2C6BDFAAE99A51E6CF272F410A655773FA), compiling. 
+[2023.06.10-23.37.26:675][449]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.37.26:675][449]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.37.26:675][449]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.37.26:675][449]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.37.28:132][480]LogShaderCompilers: Display: ================================================
+[2023.06.10-23.37.28:132][480]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.06.10-23.37.28:132][480]LogShaderCompilers: Display: Total job queries 312, among them cache hits 206 (66.03%)
+[2023.06.10-23.37.28:132][480]LogShaderCompilers: Display: Tracking 81 distinct input hashes that result in 50 distinct outputs (61.73%)
+[2023.06.10-23.37.28:132][480]LogShaderCompilers: Display: RAM used: 0.14 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.02%
+[2023.06.10-23.37.28:132][480]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.06.10-23.37.28:132][480]LogShaderCompilers: Display: Shaders Compiled: 46
+[2023.06.10-23.37.28:132][480]LogShaderCompilers: Display: Jobs assigned 89, completed 81 (91.01%)
+[2023.06.10-23.37.28:132][480]LogShaderCompilers: Display: Average time worker was idle: 39.16 s
+[2023.06.10-23.37.28:132][480]LogShaderCompilers: Display: Time job spent in pending queue: average 0.15 s, longest 2.50 s
+[2023.06.10-23.37.28:132][480]LogShaderCompilers: Display: Job execution time: average 3.33 s, max 8.20 s
+[2023.06.10-23.37.28:132][480]LogShaderCompilers: Display: Job life time (pending + execution): average 3.47 s, max 8.28
+[2023.06.10-23.37.28:132][480]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 48.22 s
+[2023.06.10-23.37.28:132][480]LogShaderCompilers: Display: Jobs were issued in 79 batches (only local compilation was used), average 1.13 jobs/batch
+[2023.06.10-23.37.28:133][480]LogShaderCompilers: Display: Average processing rate: 1.68 jobs/sec
+[2023.06.10-23.37.28:133][480]LogShaderCompilers: Display: Effective parallelization: 3.14 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.06.10-23.37.28:133][480]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.06.10-23.37.28:133][480]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 3.36 sec, max 3.36 sec, min 3.36 sec)
+[2023.06.10-23.37.28:133][480]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 3.08 sec, max 3.08 sec, min 3.08 sec)
+[2023.06.10-23.37.28:133][480]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 2.97 sec, max 2.97 sec, min 2.97 sec)
+[2023.06.10-23.37.28:133][480]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 2.70 sec, max 2.70 sec, min 2.70 sec)
+[2023.06.10-23.37.28:134][480]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 2.69 sec, max 2.69 sec, min 2.69 sec)
+[2023.06.10-23.37.28:134][480]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.06.10-23.37.28:134][480]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 22.86% of total time (compiled   16 times, average 2.17 sec, max 3.40 sec, min 1.18 sec)
+[2023.06.10-23.37.28:134][480]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.34% of total time (compiled   16 times, average 2.12 sec, max 3.77 sec, min 1.20 sec)
+[2023.06.10-23.37.28:134][480]LogShaderCompilers: Display:                                                 FLumenCardVS - 19.13% of total time (compiled   13 times, average 2.23 sec, max 2.81 sec, min 1.82 sec)
+[2023.06.10-23.37.28:134][480]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 9.17% of total time (compiled   14 times, average 0.99 sec, max 1.45 sec, min 0.71 sec)
+[2023.06.10-23.37.28:134][480]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 2.22% of total time (compiled    1 times, average 3.36 sec, max 3.36 sec, min 3.36 sec)
+[2023.06.10-23.37.28:134][480]LogShaderCompilers: Display: ================================================
+[2023.06.10-23.37.28:183][481]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.10-23.37.28:183][481]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.37.28:183][481]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.37.28:183][481]MaterialEditorStats: Shader Count: 1
+[2023.06.10-23.37.30:788][532]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.37.30:789][532]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.37.30:789][532]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.37.30:789][532]MaterialEditorStats: Shader Count: 8
+[2023.06.10-23.38.08:591][396]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: BEEAFA7CE17B1D566E1401E67DBDEF98EA868816), compiling. 
+[2023.06.10-23.38.08:599][396]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: C865EC8FCA076D824BDE2207F5CC72371C426417), compiling. 
+[2023.06.10-23.38.08:608][396]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.38.08:608][396]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.38.08:608][396]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.38.08:608][396]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.38.11:677][461]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.10-23.38.11:677][461]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.38.11:677][461]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.38.11:677][461]MaterialEditorStats: Shader Count: 2
+[2023.06.10-23.38.12:826][477]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.38.12:826][477]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.38.12:826][477]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.38.12:826][477]MaterialEditorStats: Shader Count: 6
+[2023.06.10-23.38.25:396][835]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 782C7D330B6CF4589128AB68DF450B9038A7D755), compiling. 
+[2023.06.10-23.38.25:410][835]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: E345E12BDD21327955D154026708AC611764CA2F), compiling. 
+[2023.06.10-23.38.25:435][835]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.38.25:435][835]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.38.25:435][835]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.38.25:435][835]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.38.27:482][878]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.10-23.38.27:483][878]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.38.27:483][878]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.38.27:483][878]MaterialEditorStats: Shader Count: 1
+[2023.06.10-23.38.29:805][913]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.38.29:805][913]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.38.29:805][913]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.38.29:805][913]MaterialEditorStats: Shader Count: 7
+[2023.06.10-23.38.50:027][282]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 047B30FE93B49E73E49B6A94FE16C9D5A640821D), compiling. 
+[2023.06.10-23.38.50:030][282]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: AE3CD9B11609A6154A96622FDCC2CF565995EB2F), compiling. 
+[2023.06.10-23.38.58:390][419]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: A6B2B9230692877EF0E85C0FCEE25253F6BE4ADE), compiling. 
+[2023.06.10-23.38.58:399][419]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.38.58:399][419]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.38.58:399][419]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.38.58:399][419]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.38.58:497][421]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.38.58:497][421]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.38.58:497][421]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.38.58:497][421]MaterialEditorStats: Shader Count: 12
+[2023.06.10-23.39.09:466][864]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: EFAB24333EB83D0DDAAAE2DB9D6D4B52914E366B), compiling. 
+[2023.06.10-23.39.09:475][864]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.39.09:475][864]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.39.09:475][864]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.39.09:475][864]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.39.09:652][867]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.39.09:652][867]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.39.09:652][867]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.39.09:652][867]MaterialEditorStats: Shader Count: 12
+[2023.06.10-23.39.18:634][179]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 7EA8EDAD517617DFFE2229D28CE869DD6B698D6C), compiling. 
+[2023.06.10-23.39.18:641][179]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: FFFF92239D500D896EE60AEEA60A25DE86665EF9), compiling. 
+[2023.06.10-23.39.18:650][179]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.39.18:650][179]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.39.18:650][179]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.39.18:650][179]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.39.18:833][182]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.39.18:833][182]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.39.18:833][182]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.39.18:833][182]MaterialEditorStats: Shader Count: 12
+[2023.06.10-23.39.22:213][287]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 419F21BE61C243A8A9FCC33E341A7639A249E0DF), compiling. 
+[2023.06.10-23.39.22:218][287]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: CBE6351AE67EACEA2B49BAE04D2C978774BB7926), compiling. 
+[2023.06.10-23.39.22:232][287]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.39.22:232][287]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.39.22:232][287]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.39.22:232][287]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.39.25:057][353]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.10-23.39.25:057][353]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.39.25:057][353]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.39.25:059][353]MaterialEditorStats: Shader Count: 2
+[2023.06.10-23.39.27:072][390]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.39.27:073][390]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.39.27:073][390]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.39.27:073][390]MaterialEditorStats: Shader Count: 7
+[2023.06.10-23.40.27:957][949]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: E0E2A4BE5DEC5741AA469989BAEF4CB53E97BFF9), compiling. 
+[2023.06.10-23.40.27:965][949]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 218EF724B50934A14477020813CECDAF66677438), compiling. 
+[2023.06.10-23.40.27:973][949]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.40.27:973][949]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.40.27:973][949]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.40.27:973][949]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.40.28:164][952]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.40.28:164][952]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.40.28:164][952]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.40.28:164][952]MaterialEditorStats: Shader Count: 12
+[2023.06.10-23.40.28:168][952]LogShaderCompilers: Display: ================================================
+[2023.06.10-23.40.28:168][952]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.06.10-23.40.28:168][952]LogShaderCompilers: Display: Total job queries 471, among them cache hits 331 (70.28%)
+[2023.06.10-23.40.28:168][952]LogShaderCompilers: Display: Tracking 124 distinct input hashes that result in 79 distinct outputs (63.71%)
+[2023.06.10-23.40.28:168][952]LogShaderCompilers: Display: RAM used: 0.21 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.03%
+[2023.06.10-23.40.28:168][952]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.06.10-23.40.28:168][952]LogShaderCompilers: Display: Shaders Compiled: 48
+[2023.06.10-23.40.28:168][952]LogShaderCompilers: Display: Jobs assigned 124, completed 124 (100.00%)
+[2023.06.10-23.40.28:168][952]LogShaderCompilers: Display: Average time worker was idle: 33.99 s
+[2023.06.10-23.40.28:168][952]LogShaderCompilers: Display: Time job spent in pending queue: average 0.30 s, longest 3.63 s
+[2023.06.10-23.40.28:168][952]LogShaderCompilers: Display: Job execution time: average 3.33 s, max 8.20 s
+[2023.06.10-23.40.28:168][952]LogShaderCompilers: Display: Job life time (pending + execution): average 3.64 s, max 8.28
+[2023.06.10-23.40.28:168][952]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 71.13 s
+[2023.06.10-23.40.28:169][952]LogShaderCompilers: Display: Jobs were issued in 114 batches (only local compilation was used), average 1.09 jobs/batch
+[2023.06.10-23.40.28:169][952]LogShaderCompilers: Display: Average processing rate: 1.74 jobs/sec
+[2023.06.10-23.40.28:169][952]LogShaderCompilers: Display: Effective parallelization: 3.33 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.06.10-23.40.28:169][952]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.06.10-23.40.28:169][952]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    5 times, average 3.48 sec, max 3.68 sec, min 3.36 sec)
+[2023.06.10-23.40.28:169][952]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 3.08 sec, max 3.08 sec, min 3.08 sec)
+[2023.06.10-23.40.28:169][952]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 2.97 sec, max 2.97 sec, min 2.97 sec)
+[2023.06.10-23.40.28:169][952]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 2.70 sec, max 2.70 sec, min 2.70 sec)
+[2023.06.10-23.40.28:169][952]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 2.69 sec, max 2.69 sec, min 2.69 sec)
+[2023.06.10-23.40.28:169][952]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.06.10-23.40.28:169][952]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 22.01% of total time (compiled   22 times, average 2.37 sec, max 3.63 sec, min 1.18 sec)
+[2023.06.10-23.40.28:169][952]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 21.73% of total time (compiled   22 times, average 2.34 sec, max 4.08 sec, min 1.20 sec)
+[2023.06.10-23.40.28:169][952]LogShaderCompilers: Display:                                                 FLumenCardVS - 17.24% of total time (compiled   17 times, average 2.40 sec, max 3.16 sec, min 1.82 sec)
+[2023.06.10-23.40.28:169][952]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.69% of total time (compiled   17 times, average 1.07 sec, max 1.57 sec, min 0.71 sec)
+[2023.06.10-23.40.28:169][952]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 7.36% of total time (compiled    5 times, average 3.48 sec, max 3.68 sec, min 3.36 sec)
+[2023.06.10-23.40.28:169][952]LogShaderCompilers: Display: ================================================
+[2023.06.10-23.40.32:123][ 83]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 7CF18D293A0A3D2333C074426DCDE0A90305675A), compiling. 
+[2023.06.10-23.40.32:128][ 83]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 8CAB23BCF5F46BBB6E729C4FBA48A6BE223A84DB), compiling. 
+[2023.06.10-23.40.32:142][ 83]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.40.32:142][ 83]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.40.32:142][ 83]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.40.32:142][ 83]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.40.34:325][126]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.10-23.40.34:325][126]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.40.34:325][126]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.40.34:325][126]MaterialEditorStats: Shader Count: 1
+[2023.06.10-23.40.36:339][157]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.40.36:339][157]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.40.36:339][157]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.40.36:339][157]MaterialEditorStats: Shader Count: 5
+[2023.06.10-23.40.40:092][272]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: B27A7ED0C026F564DE6AE15C6525B083B096C0FF), compiling. 
+[2023.06.10-23.40.40:102][272]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.40.40:102][272]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.40.40:102][272]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.40.40:103][272]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.40.40:327][275]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.40.40:327][275]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.40.40:327][275]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.40.40:327][275]MaterialEditorStats: Shader Count: 12
+[2023.06.10-23.41.07:298][755]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 5A5FD1086EA953815053F70870A099FBE4E3ED90), compiling. 
+[2023.06.10-23.41.07:304][755]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 74D448EDFE4099281F815B2B430080BE739886E2), compiling. 
+[2023.06.10-23.41.12:872][866]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: B23412651608D23DA28486FB10B8BD03306B3A8C), compiling. 
+[2023.06.10-23.41.12:887][866]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.41.12:887][866]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.41.12:887][866]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.41.12:887][866]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.41.14:971][907]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: DFE2EFFD1FD708A3500378BC73EDE180B58C80B7), compiling. 
+[2023.06.10-23.41.14:979][907]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 215BDAAAB7CA56934272C252F8B9F548DA5B434A), compiling. 
+[2023.06.10-23.41.15:226][912]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.10-23.41.15:226][912]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.41.15:226][912]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.41.15:226][912]MaterialEditorStats: Shader Count: 1
+[2023.06.10-23.41.17:723][952]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.41.17:723][952]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.41.17:724][952]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.41.17:724][952]MaterialEditorStats: Shader Count: 7
+[2023.06.10-23.41.59:265][394]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 37AE254FC8C8F70B4E4537B4AC21BC52663DA80D), compiling. 
+[2023.06.10-23.41.59:278][394]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 82E2DA0C7E448A2342E98C09F6295DEC7307F8A1), compiling. 
+[2023.06.10-23.41.59:283][394]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.41.59:283][394]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.41.59:283][394]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.41.59:284][394]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.42.01:900][447]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.10-23.42.01:900][447]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.42.01:900][447]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.42.01:900][447]MaterialEditorStats: Shader Count: 2
+[2023.06.10-23.42.03:504][474]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.42.03:504][474]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.42.03:504][474]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.42.03:504][474]MaterialEditorStats: Shader Count: 6
+[2023.06.10-23.42.07:862][577]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 1EE6B880493BADC2FC6A6CB5F63FF6BE16DB9002), compiling. 
+[2023.06.10-23.42.07:873][577]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 7F565E484EC6F39B18745202391BC1D4DE55D9D0), compiling. 
+[2023.06.10-23.42.07:957][579]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.42.07:957][579]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.42.07:957][579]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.42.07:957][579]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.42.09:776][613]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.10-23.42.09:776][613]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.42.09:776][613]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.42.09:776][613]MaterialEditorStats: Shader Count: 1
+[2023.06.10-23.42.12:013][656]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.42.12:013][656]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.42.12:013][656]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.42.12:013][656]MaterialEditorStats: Shader Count: 7
+[2023.06.10-23.42.35:214][ 79]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 10CE0A7F8134E51E03808D449E3DD078CDBAED21), compiling. 
+[2023.06.10-23.42.35:225][ 79]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.42.35:225][ 79]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.42.35:225][ 79]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.42.35:226][ 79]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.42.35:414][ 82]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.42.35:415][ 82]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.42.35:415][ 82]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.42.35:416][ 82]MaterialEditorStats: Shader Count: 12
+[2023.06.10-23.42.41:248][290]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 690276EC7C6C72E5AAFF9534A18DD94E15D8997E), compiling. 
+[2023.06.10-23.42.41:260][290]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 1D98989EA2D9C969D62CCC6BFE3830F8AC9E6C5A), compiling. 
+[2023.06.10-23.42.41:269][290]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.42.41:269][290]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.42.41:269][290]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.42.41:269][290]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.42.41:491][293]MaterialEditorStats: Texture samplers: 3/16
+[2023.06.10-23.42.41:491][293]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.42.41:491][293]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.42.41:491][293]MaterialEditorStats: Shader Count: 12
+[2023.06.10-23.42.45:830][434]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 9EF8A5F58BEDC8D2D95B37B97256A929A76A3BC8), compiling. 
+[2023.06.10-23.42.45:845][434]MaterialEditorStats: Texture samplers: 0/16
+[2023.06.10-23.42.45:845][434]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.42.45:845][434]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.42.45:845][434]MaterialEditorStats: Shader Count: 0
+[2023.06.10-23.42.48:882][492]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: 87EF2E2708FE05CB9EECC82B7B2A355F5D9DA539), compiling. 
+[2023.06.10-23.42.52:381][549]MaterialEditorStats: Texture samplers: 1/16
+[2023.06.10-23.42.52:381][549]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.06.10-23.42.52:381][549]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.06.10-23.42.52:381][549]MaterialEditorStats: Shader Count: 1
+[2023.06.10-23.42.52:496][551]LogMaterialEditor: Saving and Compiling material m_blood
+[2023.06.10-23.42.53:514][551]LogMaterial: Display: Missing cached shadermap for Preview:m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: CB81EB17FBF30D58E5DA350C75BED12ECC6A33AA), compiling. 
+[2023.06.10-23.42.53:557][551]LogMaterial: Display: Missing cached shadermap for m_blood in PCD3D_SM5, Default, SM5 (DDC key hash: DE2BB31F33525744249A9E3B121CFE168CF4F4A0), compiling. 
+[2023.06.10-23.42.53:701][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.06.10-23.42.55:542][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
