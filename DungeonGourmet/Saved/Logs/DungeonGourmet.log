@@ -8353,3 +8353,6 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2023.11.14-00.24.30:210][673]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
 [2023.11.14-00.24.30:210][673]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
 [2023.11.14-00.24.30:210][673]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2023.11.14-00.29.02:629][673]LogD3D12RHI: ~FD3D12DynamicRHI
+[2023.11.14-00.29.02:738][673]LogExit: Exiting.
+[2023.11.14-00.29.02:773][673]Log file closed, 11/14/23 01:29:02
