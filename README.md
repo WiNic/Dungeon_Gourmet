@@ -62,11 +62,42 @@ The trees, rocks and bushes have mainly been placed using UE5s mesh paint tool. 
 ![Treeassets](img/trees.png) 
 ![Foliage](img/foliage.png) 
 
-## Main Character Model & Main Weapon
+## Main Character
 ![MainCharacter](img/MCMesh.PNG)
 
-## Main Character Animations
-## Throwing Knives
+__Location:__ DungeonGourmet/Content/Character/MainCharacter/**; Models/mainCharacter; Models/BroadSword (.fbx, .blend files);  
+
+The main character, main weapon, and throwing knives have been modeled using blender. There was some experience using modelling software and modelling characters specifically. That was however mainly in Maya, the transition to blender was therefore not that easy. There were 2 iterations of the main character, with the second one being the one in the game.
+
+We thought that having a toon/low-poly look would work well for our current level of artistic knowledge. The model is supposed to look like a cat in a white cooking robe. The full model and blender file can be found under models/mainCharacter. The character was mainly created by using the knife and extrusion tools and shoving vertices around.
+
+We also tried to rig the character manually, which actually worked pretty well. When trying to use the rigged model with Mixamo to get some animations, it broke. After some searching around, it was clear that we had to let mixamo create the bones for us, requiring us to remove the bones again.
+
+The main character has a socket on his right arm to hold the sword. Sadly, as the arms of our character are currently too short, he does not hold the sword properly. Due to the camera perspective this is barely visible however. During BeginPlay inside BP_ThirdPersonCharacter the sword is created and put onto the socket. The sword is saved to be used during the attack calculations.
+
+### Main Character Animations
+The animations of the main character all come from mixamo. We chose to use the "Greatsword pack" which contains many animations which would be relevant to our game. All animation files can be found inside unreal under Content/characters/mainCharacter/animations.
+
+The roll and attack animation are played using montages, as they are typically only played once and should override all other animations.
+
+The idle-walk-run animations are contained in a blendspace "BS_Walk", to allow smooth blending of the animations given the speed of the main character.
+
+The animations are merged in "ABP_MainCharacter". Here, we have a fullBodySlot for the roll animation and an upperBodySlot for the attack animation. This allows the character to roll with the whole body and to attack while walking around. The base pose that is supplied is what is output by BS_Walk.
+
+### Dodge Roll
+The functionality behind the dodge roll is implemented on BP_ThirdPersonCharacter. The dodge is triggered when pressing the space key on keyboard.
+
+The logic first checks whether the dodge is on cooldown and whether another animation is currently playing. If neither is the case, the dodge animation montage is played and the dodge cooldown is set. During the dodge animation, a timeline is used to propell the character forward by changing its velocity.
+
+### Slash Attack
+
+The functionality behind the slash attack is implemented on BP_ThirdPersonCharacter. The slash is triggered when pressing the left mouse click.
+
+The logic behind the slash merely checks whether another animation is currently playing, and if not, it uses a doOnce node to trigger the slash animation once. The animation has a notify called "Hit_Slash_1" which is linked to trigger the "CheckHit" event. This is also implemented in the BP_ThirdPersonCharacter.
+
+The check hit looks up all enemy AI actors and checks for each whether they are in some variable range from a socket on the sword of our main character. (The sword can be found under Content/Characters/MainCharacter/Weapon). If an enemy is hit, a sound is played and the ApplyDamage method is called for that enemy.
+
+### Throwing Knives
 ![ThrowingKnives](img/Knives.PNG)
 
 __Location:__ DungeonGourmet/Content/Characters/MainCharacter/BP_ThirdPersonCharacter; Content/Characters/MainCharacter/Weapons/BP_Knife; Models/ThrowingKnives (.fbx, .blend files);  
@@ -79,9 +110,6 @@ Knife velocity is adjusted by adding the velocity of the emitter to get an authe
 
 Premature deletion of the projectile actor proved to be a source of many errors during implementation. Unfortunately, many error messages were misleading, as they usually pointed to another part of the blueprint that was working well. Also, in one of the first versions, the projectile threw enemies back and stunned them (which was implemented in the enemy AI blueprint), but this functionality kept crashing the game randomly. We have removed this part, as we could not find the underlying cause.
 
-## Dodge Roll
-## Slash Attack
-
 ## Enemies
 __Location:__ DungeonGourmet/Content/Characters/Enemy/**; Models/Enemy (.fbx, .blend files);  
 We have implemented two enemy classes. In the game, these classes serve as the basis for the spawned enemies, which are further modified by the enemy spawner to be bigger/stronger or weaker/smaller. Both enemies use the same enemy AI controller with a behaviour tree, which specifies on which conditions the enemy pawn shall roam around, wait, chase the player/attack, and die. Futhermore those behaviours are defined in the associated behaviuor task blueprint. In order to detect the player we used a pawn sensing component. Enemies have Aside from appearance (mesh) and animations, both enemies differ in the way their attack is implemented. Each enemy has its unique idle, walk, attack, and death animation, which behaviours are defined in their animation blueprint classes, whereby the particular animations are in the Animation folder. We used a blendspace for the transition between idle and walk. On attack we play the corresponding animation in which we defined notifications, in order to know when to apply the attack.
@@ -92,13 +120,16 @@ On _Apply Attack_ we use sphere tracing in the range of the attack raduis in ord
 ![Slime](img/Slime.PNG)  
 Slime inherits the EnemyAI (Skeleton) class and overrides the _Apply Attack_ function to be empty, as the slime applies damage on overlap with the player character. Its attack animation is a forward thrust, which combined with the behaviour in the animation blueprint results in a dash ingame (increased velocity, no collision with pawns). Furthermore the slime glows on attack.
 
-
 ## Enemy waves
+__Location:__ DungeonGourmet/Content/Blueprints/**;  
+
 The enemy waves have been designed to teach the players the enemies first, before becoming a bigger challenge. The skeletons are introduced first, one skeleton at a time. In the second wave, the player must battle against several enemies at once, learning to deal with that specific situation. The slimes are introduced afterwards, once again with a single slime at first, then a single strong slime, and afterwards 2 slimes. 
 
 Having learned the different enemy types, players must now face combinations of the two, with different themes to each fight. There is a wave consisting of many small enemies, a wave consisting of 2 massive slimes, 2 big random enemies and finally a battle against 10 strong enemies where 5 enemies can be on the screen at one time. 
 
 ## Enemy Wave Spawner
+__Location:__ DungeonGourmet/Content/Blueprints/**;  
+
 Enemys are spawned at predetermined locations. The logic is that each wave has a pool of enemys and they are randomly distributed to the spawn location. 
 There are some parameters that can be set for the waves:
 ![WavePoolStructure](img/wavepool.PNG)
@@ -109,13 +140,15 @@ There are some parameters that can be set for the waves:
 
 
 ## Power Up System
+__Location:__ DungeonGourmet/Content/Blueprints/PowerUpFolder;  
+
 Players start the game with basic stats, which can be improved after each round. They have the option to choose from three different Powerups, each affecting certain stats in either a positive or negative way. To keep the system easy to manage, all powerups are stored in a JSON file, simplifying the process of balancing new powerups. When adding new stats or a new skill image, the existing powerups are not compromised.
 
 ## Audio
 ### Music
 __Location:__ DungeonGourmet/Content/Audio/Music/**;  
 
-There are 3 different tracks of music. A soothing background music for when our player does nothing, as well as a battle music, which plays whenever enemies attack the player. The music seemlessly switches between the 2 tracks using fade in/out. 
+There are 3 different tracks of music. A soothing background music for when our player does nothing, as well as a battle music, which plays whenever enemies attack the player. The music seemlessly switches between the 2 tracks using fade in/out.  
 
 The last music track is for the main menu.
 
@@ -137,8 +170,10 @@ The footsteps are cued when a specific frame in the animation happens.
 The slime only has 2 different sound effects, a dash sound when he attacks, and a squishy sound which plays when damaged or when he hits the player. 
 
 The skeletons are more similar to the main character, as they have footsteps linked to their animations as well. They also have different attack and damaged sounds, and a special sound for their death. 
+
 ## UI Widgets
 The UI Widgets are Preset pages that are created seperrately and are faded in and out whenever needed.
+
 ### Ingame UI 
 The functionality and the resources behind the ingame overlay can be found inside Content/UI/IngameOverlay.
 
@@ -152,9 +187,33 @@ The Power Ups are randomised before they are filled into the Button element afte
 ![InGameWidgets](img/ingameui.PNG)
 
 
-
 ## Visual Effects
 The visual effects on the camera, which were present during the last milestone of the game have been removed, as they did not match the wanted visuals. The main color scheme of the game is now determined by the materials of the assets, as well as the Skybox. This leads to the warm colors seen in the game. 
+
 ### Bloodsplosion
+
+__Location:__ DungeonGourmet/Content/VFX/Bloodsplosion/**
+
+The blood explosion effect is played when the enemy dies after their death animation. It has been implemented with the Niagara particle system by creating a custom material to obtain different particles. There is also the option to change the base colors of the explosions, which is used on our enemy characters where it is added as a component.
+
 ### Damage Numbers
+
+![Numbers](img/Numbers.PNG)
+
+__Location:__ DungeonGourmet/Content/UI/FloatingCombatText/**
+
+When the enemy takes damage, a text is displayed in the center of the enemy AI indicating the damage amount. After a short period of time, the displayed text fades out and moves upward. Note that when the AI is hit with a projectile, the displayed text is shot out of the enemy actor with a dampened impulse from the hitting projectile. This functionality is implemented under Content/UI/FloatingCombatText and consists of the following 3 parts:
+
+FloatingCombatText: The widget that contains the combat text. It is set to be always visible in screen space and contains a "FloatUpFadeOut" animation that starts linearly and transitions to a smooth curve (visible in the curve editor), with the displayed text gradually fading out and moving up. The text itself is set as a variable, since we want to define it dynamically at runtime. This can be done using the "Initialize" event defined in the blueprint graph. In addition, the playback speed is adjustable and a custom event is called after the widget animation is finished. This is needed in order to know when the associated actor can be deleted.
+
+BP_FloatingCombatText: The actor associated with the widget that is needed for the physics simulation. It is configured to be invisible and ignore all collisions. In addition to initializing the widget, it binds its destructor to the previously defined custom event and takes a velocity as input that is used as impulse for its movement. Since we don't want to shoot the displayed text too far away from the opponent, the length of the velocity vector is divided by 1000, multiplied by the input variable AbsLinearDampingFactor, and then set as a linear damping factor which allows us to adjust the distance it will traverse.
+
+BPC_DamageDisplay: The blueprint for a component that binds to its owner's damage event and creates a FloatingCombatText actor at the owner's position when it is triggered. This represents the final component added to the enemy AI blueprint.
+
+This modular implementation style allows the combat text actor to be reused for displays other than damage, which can then be defined as another component analogous to BPC_DamageDisplay, which in turn can be added simply by adding the component to the respective actor.
+
 ### Player Damage Effect
+
+__Location:__ DungeonGourmet/Content/UI/DamagedOverlay/**; DungeonGourmet/Content/Characters/MainCharacter/BP_ThirdPersonCharacter;
+
+The player damage effect is created by shortly flashing widget with a red vignette when the player gets hit.
