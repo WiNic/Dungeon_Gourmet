@@ -52,12 +52,25 @@ We also used the camera's post-processing options to give our game more of the l
 ## Throwing Knives
 ## Dodge Roll
 ## Slash Attack
+### Landscape
+The landscape has been designed using the landscape editor of unreal engine. The "textures" are 4 different materials, which all are just flat colors: Grass, Path (brown), Mountain and Snow. The material has a normal and tangent map based on the X and Y coordinates crossed, to give the blocky visual effect. 
+![Landscape](img/Level.png)
+![Normals and tangents](img/levelshading.png)
+
+For the entry area, invisible walls are used, as otherwise the player could leave the playing area. Placing trees there would not have made sense, as otherwise there would be no way for the meowsterful chef to enter or leave the area in which the game takes place.
+
+### Landscape details
+The trees, rocks and bushes have mainly been placed using UE5s mesh paint tool. Most big assets cannot be walked through by the player, ensuring a solid playing area. Some rocks and other assets (like the well), mainly the bigger ones, have been placed by hand. The assets have been taken from itch.io and are free to use. 
+
+![Treeassets](img/trees.png) 
+![Foliage](img/foliage.png) 
 ## Enemies
 ## Enemy Wave Spawner
 ## Power Up System
 ## Audio
 ## UI Widgets
 ## Visual Effects
+The visual effects on the camera, which were present during the last milestone of the game have been removed, as they did not match the wanted visuals. The main color scheme of the game is now determined by the materials of the assets, as well as the Skybox. This leads to the warm colors seen in the game. 
 ### Bloodsplosion
 ### Damage Numbers
 ### Player Damage Effect
