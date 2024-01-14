@@ -1467,3 +1467,5 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.14-17.56.13:044][860]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2024.01.14-17.56.13:044][860]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
 [2024.01.14-18.00.28:931][629]LogDerivedDataCache: C:/Users/Philipp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.052 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 992 files in 1799 folders with total size 70 MiB.
+[2024.01.14-18.08.03:472][362]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-18.08.05:771][601]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
