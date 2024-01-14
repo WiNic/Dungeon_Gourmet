@@ -19,7 +19,7 @@ Our original idea was a rougelite action RPG with two gameplay loops, an inner (
 Roguelike Action RPG with top-down view. We want to appeal to casual players with the accessible; child-friendly art style and non-casual players with the restrictive combat system. We aim for a medium difficulty level that neither discourages nor bores either group. 
 
 ## Gameplay Feeling
-Heavy, calculated gameplay where every move counts. The weight of the sword and the body type of the cat boss should be reflected in the gaming experience.
+Heavy, calculated gameplay where every move counts. The weight of the sword and the body type of the cat chef should be reflected in the gaming experience.
 
 ## Art Style
 Low-poly assets with warm colors. Outside dungeons rather than indoors, but still quite mysterious and with high contrast. The main character is
