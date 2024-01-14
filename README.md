@@ -48,6 +48,7 @@ We also used the camera's post-processing options to give our game more of the l
 The level consists of a single large playing field, with a more or less safe starting area. The level is designed to be close to nature and should depict a forrest next to a mountain range. 
 
 __Location:__ DungeonGourmet/Content/Levels/Level1;  DungeonGourmet/Content/LevelPrototyping/** (assets);
+
 ### Landscape
 The landscape has been designed using the landscape editor of unreal engine. The "textures" are 4 different materials, which all are just flat colors: Grass, Path (brown), Mountain and Snow. The material has a normal and tangent map based on the X and Y coordinates crossed, to give the blocky visual effect. 
 ![Landscape](img/Level.png)
@@ -66,6 +67,18 @@ The trees, rocks and bushes have mainly been placed using UE5s mesh paint tool. 
 
 ## Main Character Animations
 ## Throwing Knives
+![ThrowingKnives](img/Knives.PNG)
+
+__Location:__ DungeonGourmet/Content/Characters/MainCharacter/BP_ThirdPersonCharacter; Content/Characters/MainCharacter/Weapons/BP_Knife; Models/ThrowingKnives (.fbx, .blend files);  
+
+Knives (or rather forks in our case) can be thrown with a right mouse click. They have an internal cooldown of 2 seconds, but a corresponding widget has not been implemented. The knives are thrown in a cone in the character's facing direction. The spawning/throwing functionality has been implemented in the main character's blueprint, with the projectile itself implemented as an Actor. We modeled the forks ourselves in blender.
+
+The main character has 3 invisible and collision-free spheres KnifeRef[LMR], which are used as references where to spawn the knives and in which direction to throw them. The implementation is called on the "InputAction Attack_2" event and consists of the controlflow that checks/sets the cooldown and obtains/releases the animation lock (only one animation at a time), and the actual spawning of the knives. To throw them in line of sight, the world rotation of the capsule component is specified. For the adjustment of the velocity rotation from the character to a specific knife instance, the relative rotation of the reference is provided. Futhermore, the local rotation (for mesh & collision box) of the knives is adjusted to the rotation of their velocity, i.e. their flight direction. With the activation of their projectile movement component the knives are thrown.
+
+Knife velocity is adjusted by adding the velocity of the emitter to get an authentic throwing feeling. The collision of the projectile is set to collide with everything except pawns, for which overlapping events are generated. When overlapping with the enemy AI, it inflicts damage, whereby the projectile is first deactivated as well as made invisible and destroyed after a short delay to give the application enough time to display the damage numbers, as the projectile's speed is needed for their impulse.
+
+Premature deletion of the projectile actor proved to be a source of many errors during implementation. Unfortunately, many error messages were misleading, as they usually pointed to another part of the blueprint that was working well. Also, in one of the first versions, the projectile threw enemies back and stunned them (which was implemented in the enemy AI blueprint), but this functionality kept crashing the game randomly. We have removed this part, as we could not find the underlying cause.
+
 ## Dodge Roll
 ## Slash Attack
 
