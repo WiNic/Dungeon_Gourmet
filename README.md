@@ -45,7 +45,7 @@ As we want to have a top-down roguelike, we had to move the camera in a fairly s
 We also used the camera's post-processing options to give our game more of the look and color scheme suggested in our GDD's mood board. To do this, we applied gamma correction, additional gain and color offset. This initially resulted in a more earthy, green look, which was desirable as we were aiming for a more nature-like appearance, but it proved to be hard on the eyes, so after some trial and error we adjusted the parameters to a more neutral and not too contrasty look.
 
 ## Level
-The level consists of a single large playing field, with a more or less safe starting area. The level is designed to be close to nature and should depict a forrest next to a mountain range. 
+The level consists of a single large playing field, with a more or less safe starting area. The level is designed to be close to nature and should depict a forrest next to a mountain range. Originally we had planned to create multiple instanced dungeon rooms and implemented a level streaming feature with camera fade-out, but we abandoned this idea midway through  and focused on one level (Level1). The remnants (dead code) of the previous implementation can be found in the blueprints of the Persistent, Dungeon Room1 and Start Wold levels.
 
 __Location:__ DungeonGourmet/Content/Levels/Level1;  DungeonGourmet/Content/LevelPrototyping/** (assets);
 
@@ -110,7 +110,33 @@ There are some parameters that can be set for the waves:
 
 ## Power Up System
 Players start the game with basic stats, which can be improved after each round. They have the option to choose from three different Powerups, each affecting certain stats in either a positive or negative way. To keep the system easy to manage, all powerups are stored in a JSON file, simplifying the process of balancing new powerups. When adding new stats or a new skill image, the existing powerups are not compromised.
+
 ## Audio
+### Music
+__Location:__ DungeonGourmet/Content/Audio/Music/**;  
+
+There are 3 different tracks of music. A soothing background music for when our player does nothing, as well as a battle music, which plays whenever enemies attack the player. The music seemlessly switches between the 2 tracks using fade in/out. 
+
+The last music track is for the main menu.
+
+All tracks has been taken from [itch.io](https://alkakrab.itch.io/free-25-fantasy-rpg-game-tracks-no-copyright-vol-2)
+
+### Effects
+__Location:__ DungeonGourmet/Content/Audio/Effects/**;  
+
+There are several audio effects in the game. The buttons of the ui have sounds when hovered and pressed, and the player and enemies make sounds at different times in the game. Basically all sound effects use a modulator to randomly change pitch and volume of the sound. 
+
+The sounds are different sounds taken from various free to use websites, which were edited to length and filled with effects to reduce noise and unwanted sounds contained in the inital effects.
+
+#### Main character
+The chef cat has several effects: Footsteps whenever he is running around, a meow sound which is played during different actions and randomly aswell, attack sounds (sword swooshing), a roll sound, and a damage taken sound. The meow plays in random intervals as well as when damaged and sometimes when he rolls or attacks. 
+
+The footsteps are cued when a specific frame in the animation happens. 
+
+#### Enemies
+The slime only has 2 different sound effects, a dash sound when he attacks, and a squishy sound which plays when damaged or when he hits the player. 
+
+The skeletons are more similar to the main character, as they have footsteps linked to their animations as well. They also have different attack and damaged sounds, and a special sound for their death. 
 ## UI Widgets
 The UI Widgets are Preset pages that are created seperrately and are faded in and out whenever needed.
 ### Ingame UI 
