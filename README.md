@@ -35,13 +35,23 @@ A possible switch to Unity was considered, but ultimately discarded due to time 
 
 # Implemented Features
 ## Basic Movement & Camera Settings
+__Location:__ DungeonGourmet/Content/Characters/MainCharacter/BP_ThirdPersonCharacter
+
+### Movement
+The basic movement is based on the position and orientation of the camera. The player can use the W, A, S, D keys to move on a plane parallel to the XY plane. We simply use the xy parts of the camera's forward vector and normalize them to get the direction we want our character to move when we make the up/down and left/right inputs. Everything else is done automatically by UE. We initially implemented this to only go in +/- x/y direction, but when we changed the camera perspective, it was pretty obvious that the previous implementation wouldn't be enough.
+
+### Camera
+As we want to have a top-down roguelike, we had to move the camera in a fairly specific way. It is centered a bit away, centered on our main character and supports a fairly wide FOV, as the world surrounding our character could not be seen otherwise.  
+We also used the camera's post-processing options to give our game more of the look and color scheme suggested in our GDD's mood board. To do this, we applied gamma correction, additional gain and color offset. This initially resulted in a more earthy, green look, which was desirable as we were aiming for a more nature-like appearance, but it proved to be hard on the eyes, so after some trial and error we adjusted the parameters to a more neutral and not too contrasty look.
+
+## Level
+![Level](img/Level.PNG)
 ## Main Character Model & Main Weapon
 ![MainCharacter](img/MCMesh.PNG)
 ## Main Character Animations
 ## Throwing Knives
 ## Dodge Roll
 ## Slash Attack
-## Level
 ## Enemies
 ## Enemy Wave Spawner
 ## Power Up System
