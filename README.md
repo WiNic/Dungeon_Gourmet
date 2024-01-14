@@ -86,9 +86,34 @@ The enemy waves have been designed to teach the players the enemies first, befor
 Having learned the different enemy types, players must now face combinations of the two, with different themes to each fight. There is a wave consisting of many small enemies, a wave consisting of 2 massive slimes, 2 big random enemies and finally a battle against 10 strong enemies where 5 enemies can be on the screen at one time. 
 
 ## Enemy Wave Spawner
+Enemys are spawned at predetermined locations. The logic is that each wave has a pool of enemys and they are randomly distributed to the spawn location. 
+There are some parameters that can be set for the waves:
+![WavePoolStructure](img/wavepool.PNG)
+
+- A map for the enemy type and the number of these enemys
+- maximum enemies on the screen 
+- and a damage minimum and maximum multiplier to the base damage range
+
+
 ## Power Up System
+Players start the game with basic stats, which can be improved after each round. They have the option to choose from three different Powerups, each affecting certain stats in either a positive or negative way. To keep the system easy to manage, all powerups are stored in a JSON file, simplifying the process of balancing new powerups. When adding new stats or a new skill image, the existing powerups are not compromised.
 ## Audio
 ## UI Widgets
+The UI Widgets are Preset pages that are created seperrately and are faded in and out whenever needed.
+### Ingame UI 
+The functionality and the resources behind the ingame overlay can be found inside Content/UI/IngameOverlay.
+
+The overlay consists of two elements which show the cooldown of the dodgroll and the amount of HP the character has. Both of them implemented using progress bars.
+
+The dodge roll UI element receives time when the roll is available again and the cooldown time of the roll and calculates the percentage of how far the progress bar should be filled. The display is not perfectly accurate, as this leads to a better gamefeel.
+
+There are also two counters displayed for the current Wave and the enemies remaining.
+
+The Power Ups are randomised before they are filled into the Button element after a wave is completed. 
+![InGameWidgets](img/ingameui.PNG)
+
+
+
 ## Visual Effects
 The visual effects on the camera, which were present during the last milestone of the game have been removed, as they did not match the wanted visuals. The main color scheme of the game is now determined by the materials of the assets, as well as the Skybox. This leads to the warm colors seen in the game. 
 ### Bloodsplosion
