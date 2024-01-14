@@ -1243,3 +1243,227 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.14-17.03.34:647][771]LogViewport: Scene viewport resized to 1526x399, mode Windowed.
 [2024.01.14-17.03.34:680][773]LogViewport: Scene viewport resized to 1526x412, mode Windowed.
 [2024.01.14-17.03.34:733][777]LogViewport: Scene viewport resized to 1526x430, mode Windowed.
+[2024.01.14-17.28.09:574][766]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.28.09:592][767]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.28.09:628][768]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.28.09:658][769]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.28.37:222][  0]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Enemy/EnemyAI.EnemyAI
+[2024.01.14-17.28.37:222][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.28.37:222][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.28.38:146][  0]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.01.14-17.28.38:148][  0]LogSlate: Took 0.000074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.01.14-17.28.44:911][565]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.28.47:538][723]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.28.47:570][724]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.28.49:557][836]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2024.01.14-17.28.59:742][685]LogSlate: Window 'EnemyAI' being destroyed
+[2024.01.14-17.28.59:747][685]LogSlate: Window 'EnemyAI' being destroyed
+[2024.01.14-17.28.59:754][685]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.28.59:754][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.29.06:409][447]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/Enemy/ABP_Enemy.ABP_Enemy
+[2024.01.14-17.29.06:409][447]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.29.06:409][447]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.29.06:470][447]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.29.06:470][447]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.29.06:500][447]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Sphere_inversenormals) ...
+[2024.01.14-17.29.06:526][447]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.14-17.29.06:755][447]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.29.06:755][447]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.29.06:828][447]LogViewport: Scene viewport resized to 476x411, mode Windowed.
+[2024.01.14-17.29.51:858][  4]LogSlate: Window 'ABP_Enemy' being destroyed
+[2024.01.14-17.29.51:862][  4]LogSlate: Window 'ABP_Enemy' being destroyed
+[2024.01.14-17.29.51:882][  4]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.29.51:882][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.29.51:903][  4]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.29.51:903][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.29.51:937][  4]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.29.51:937][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.29.53:062][118]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Enemy/SlimeAI.SlimeAI
+[2024.01.14-17.29.53:062][118]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.29.53:062][118]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.29.53:305][120]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.30.02:781][619]LogSlate: Window 'SlimeAI' being destroyed
+[2024.01.14-17.30.02:785][619]LogSlate: Window 'SlimeAI' being destroyed
+[2024.01.14-17.30.02:791][619]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.30.02:791][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.30.04:315][773]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/Enemy/ABP_Slime.ABP_Slime
+[2024.01.14-17.30.04:315][773]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.30.04:315][773]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.30.04:333][773]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.30.04:333][773]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.30.04:338][773]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.14-17.30.04:525][773]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.30.04:525][773]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.30.04:596][773]LogViewport: Scene viewport resized to 476x411, mode Windowed.
+[2024.01.14-17.30.19:033][843]LogSlate: Window 'ABP_Slime' being destroyed
+[2024.01.14-17.30.19:039][843]LogSlate: Window 'ABP_Slime' being destroyed
+[2024.01.14-17.30.19:057][843]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.30.19:057][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.30.19:067][843]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.30.19:067][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.30.19:103][843]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.30.19:103][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.30.20:038][936]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/Enemy/ABP_Slime.ABP_Slime
+[2024.01.14-17.30.20:038][936]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.30.20:038][936]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.30.20:056][936]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.30.20:056][936]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.30.20:061][936]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.14-17.30.20:246][936]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.30.20:246][936]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.30.20:321][936]LogViewport: Scene viewport resized to 476x411, mode Windowed.
+[2024.01.14-17.30.42:948][675]LogSlate: Window 'ABP_Slime' being destroyed
+[2024.01.14-17.30.42:953][675]LogSlate: Window 'ABP_Slime' being destroyed
+[2024.01.14-17.30.43:010][675]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.30.43:010][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.30.43:020][675]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.30.43:020][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.30.43:056][675]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.30.43:056][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.30.44:582][828]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Enemy/SlimeAI.SlimeAI
+[2024.01.14-17.30.44:582][828]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.30.44:582][828]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.30.46:715][960]LogSlate: Window 'SlimeAI' being destroyed
+[2024.01.14-17.30.46:720][960]LogSlate: Window 'SlimeAI' being destroyed
+[2024.01.14-17.30.46:726][960]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.30.46:726][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.30.47:637][ 48]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/Enemy/ABP_Slime.ABP_Slime
+[2024.01.14-17.30.47:638][ 48]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.30.47:638][ 48]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.30.47:655][ 48]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.30.47:656][ 48]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.30.47:661][ 48]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.14-17.30.47:854][ 48]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.30.47:854][ 48]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.30.47:926][ 48]LogViewport: Scene viewport resized to 476x411, mode Windowed.
+[2024.01.14-17.31.29:940][208]LogSlate: Window 'ABP_Slime' being destroyed
+[2024.01.14-17.31.29:945][208]LogSlate: Window 'ABP_Slime' being destroyed
+[2024.01.14-17.31.29:991][208]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.31.29:991][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.31.30:001][208]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.31.30:001][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.31.30:039][208]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.31.30:039][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.35.38:432][505]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Enemy/EnemyAI.EnemyAI
+[2024.01.14-17.35.38:432][505]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.35.38:432][505]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.36.43:381][483]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/Enemy/ABP_Enemy.ABP_Enemy
+[2024.01.14-17.36.43:381][483]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.36.43:381][483]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.36.43:398][483]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.36.43:398][483]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.36.43:405][483]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.14-17.36.43:572][483]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.36.43:572][483]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.36.43:642][483]LogViewport: Scene viewport resized to 476x411, mode Windowed.
+[2024.01.14-17.36.49:291][934]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2024.01.14-17.37.29:962][367]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.37.33:313][690]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Characters/Enemy/Animation/BS_Enemy_IdleRun.BS_Enemy_IdleRun
+[2024.01.14-17.37.33:317][690]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.37.33:317][690]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.37.33:329][690]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.14-17.37.33:492][690]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.37.33:492][690]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.37.33:578][690]LogViewport: Scene viewport resized to 1109x538, mode Windowed.
+[2024.01.14-17.37.33:594][690]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.14-17.37.36:094][868]LogSlate: Window 'BS_Enemy_IdleRun' being destroyed
+[2024.01.14-17.37.36:099][868]LogSlate: Window 'BS_Enemy_IdleRun' being destroyed
+[2024.01.14-17.37.36:130][868]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.37.36:130][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.37.36:169][868]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.37.36:169][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.37.36:181][868]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.37.36:181][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.37.36:213][868]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.37.36:213][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.37.36:235][868]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.37.36:235][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.37.36:261][868]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.37.36:261][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.37.38:379][ 65]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Characters/Enemy/Animation/AM_Attack.AM_Attack
+[2024.01.14-17.37.38:380][ 65]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.37.38:380][ 65]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.37.38:396][ 65]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.14-17.37.38:561][ 65]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.37.38:561][ 65]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.37.38:682][ 65]LogViewport: Scene viewport resized to 1109x538, mode Windowed.
+[2024.01.14-17.37.38:748][ 67]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.37.42:009][311]LogSlate: Window 'AM_Attack' being destroyed
+[2024.01.14-17.37.42:013][311]LogSlate: Window 'AM_Attack' being destroyed
+[2024.01.14-17.37.42:061][311]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.37.42:061][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.37.42:121][311]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.37.42:121][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.37.44:767][611]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.37.44:796][612]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.38.35:885][306]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/Enemy/ABP_Enemy.ABP_Enemy
+[2024.01.14-17.38.35:886][306]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.38.35:886][306]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.38.35:903][306]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.38.35:904][306]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.38.35:910][306]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.14-17.38.36:096][306]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.38.36:096][306]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.38.36:165][306]LogViewport: Scene viewport resized to 476x411, mode Windowed.
+[2024.01.14-17.38.41:316][722]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Characters/Enemy/Animation/BS_Enemy_IdleRun.BS_Enemy_IdleRun
+[2024.01.14-17.38.41:317][722]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.38.41:317][722]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.38.41:326][722]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.14-17.38.41:454][722]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.38.41:454][722]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.38.41:532][722]LogViewport: Scene viewport resized to 1109x538, mode Windowed.
+[2024.01.14-17.38.41:554][722]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.14-17.38.43:271][845]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.38.43:271][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.38.43:300][845]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.38.43:300][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.38.43:320][845]LogViewport: Scene viewport resized to 476x425, mode Windowed.
+[2024.01.14-17.38.43:354][846]LogViewport: Scene viewport resized to 476x418, mode Windowed.
+[2024.01.14-17.38.43:391][847]LogViewport: Scene viewport resized to 476x411, mode Windowed.
+[2024.01.14-17.38.44:545][937]LogSlate: Window 'ABP_Enemy' being destroyed
+[2024.01.14-17.38.44:590][937]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.38.44:590][937]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.38.44:601][937]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.38.44:601][937]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.38.44:634][937]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.38.44:635][937]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.38.46:204][ 81]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Enemy/EnemyAI.EnemyAI
+[2024.01.14-17.38.46:205][ 81]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.38.46:205][ 81]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.39.25:893][377]LogSlate: Window 'EnemyAI' being destroyed
+[2024.01.14-17.39.25:898][377]LogSlate: Window 'EnemyAI' being destroyed
+[2024.01.14-17.39.25:904][377]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.39.25:904][377]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.39.28:488][659]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Enemy/AI/AIC_EnemyAI.AIC_EnemyAI
+[2024.01.14-17.39.28:489][659]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.39.28:489][659]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.39.31:485][939]LogSlate: Window 'AIC_EnemyAI' being destroyed
+[2024.01.14-17.39.31:490][939]LogSlate: Window 'AIC_EnemyAI' being destroyed
+[2024.01.14-17.39.31:530][939]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2024.01.14-17.39.31:530][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.14-17.39.32:952][ 94]LogAssetEditorSubsystem: Opening Asset editor for BlackboardData /Game/Characters/Enemy/AI/BBD_EnemyAI.BBD_EnemyAI
+[2024.01.14-17.39.35:330][332]LogSlate: Window 'BBD_EnemyAI' being destroyed
+[2024.01.14-17.39.35:335][332]LogSlate: Window 'BBD_EnemyAI' being destroyed
+[2024.01.14-17.39.36:307][439]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Characters/Enemy/AI/BT_EnemyAI.BT_EnemyAI
+[2024.01.14-17.42.03:024][271]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Enemy/AI/BTTask_Chase_Player.BTTask_Chase_Player
+[2024.01.14-17.42.03:024][271]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.42.03:024][271]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.42.16:049][571]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Enemy/AI/BTTask_Die.BTTask_Die
+[2024.01.14-17.42.16:049][571]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.42.16:049][571]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.45.01:416][661]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Enemy/EnemyAI.EnemyAI
+[2024.01.14-17.45.01:417][661]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.45.01:417][661]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.54.04:516][218]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/Enemy/ABP_Slime.ABP_Slime
+[2024.01.14-17.54.04:517][218]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.54.04:517][218]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.54.04:523][218]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.54.04:523][218]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.54.04:530][218]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.14-17.54.04:699][218]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.54.04:699][218]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-17.54.04:782][218]LogViewport: Scene viewport resized to 476x411, mode Windowed.
+[2024.01.14-17.56.13:044][860]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Enemy/SlimeAI.SlimeAI
+[2024.01.14-17.56.13:044][860]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.14-17.56.13:044][860]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.14-18.00.28:931][629]LogDerivedDataCache: C:/Users/Philipp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.052 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 992 files in 1799 folders with total size 70 MiB.
