@@ -45,7 +45,7 @@ As we want to have a top-down roguelike, we had to move the camera in a fairly s
 We also used the camera's post-processing options to give our game more of the look and color scheme suggested in our GDD's mood board. To do this, we applied gamma correction, additional gain and color offset. This initially resulted in a more earthy, green look, which was desirable as we were aiming for a more nature-like appearance, but it proved to be hard on the eyes, so after some trial and error we adjusted the parameters to a more neutral and not too contrasty look.
 
 ## Level
-The level consists of a single large playing field, with a more or less safe starting area. The level is designed to be close to nature and should depict a forrest next to a mountain range. 
+The level consists of a single large playing field, with a more or less safe starting area. The level is designed to be close to nature and should depict a forrest next to a mountain range. Originally we had planned to create multiple instanced dungeon rooms and implemented a level streaming feature with camera fade-out, but we abandoned this idea midway through  and focused on one level (Level1). The remnants (dead code) of the previous implementation can be found in the blueprints of the Persistent, Dungeon Room1 and Start Wold levels.
 
 __Location:__ DungeonGourmet/Content/Levels/Level1;  DungeonGourmet/Content/LevelPrototyping/** (assets);
 ### Landscape
