@@ -12,15 +12,23 @@ __Zusammenfassung:__ Dungeon Gourmet ist ein roguelike Action-RPG, das in der Un
 # Original Concept
 ![Moodboard](img/moodboard.PNG)
 ## Idea
-## Genera & Target Audience
+## Genre & Target Audience
+Roguelike Action RPG with top-down view.
 ## Gameplay Feeling
+Heavy, calculated gameplay where every move counts. The weight of the sword and the body type of the cat boss should be reflected in the gaming experience.
 ## Art Style
+Low-poly assets with warm colors. Outside dungeons rather than indoors, but still quite mysterious and with high contrast. The main character is
+different from the world around him due to the strong contrast and different color scheme
+around him. The world is 3D, low-poly and cartoony. See the moodboard.
 ## Platform
+Windows
 ## Development Environment
+The game was implemented in Unreal 5.2.
+A possible switch to Unity was considered, but eventually abandoned.
 # Implemented Features
 ## Basic Movement & Camera Settings
-## Main Character Model
-## Main Weapon
+## Main Character Model & Main Weapon
+![MainCharacter](img/MCMesh.PNG)
 ## Main Character Animations
 ## Throwing Knives
 ## Dodge Roll
