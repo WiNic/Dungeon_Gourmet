@@ -71,10 +71,10 @@ The trees, rocks and bushes have mainly been placed using UE5s mesh paint tool. 
 __Location:__ DungeonGourmet/Content/Characters/Enemy/**; Models/Enemy (.fbx, .blend files);
 We have implemented two enemy classes. In the game, these classes serve as the basis for the spawned enemies, which are further modified by the enemy spawner to be bigger/stronger or weaker/smaller. Both enemies use the same enemy AI controller with a behaviour tree, which specifies on which conditions the enemy pawn shall roam around, wait, chase the player/attack, and die. Futhermore those behaviours are defined in the associated behaviuor task blueprint. In order to detect the player we used a pawn sensing component. Enemies have Aside from appearance (mesh) and animations, both enemies differ in the way their attack is implemented. Each enemy has its unique idle, walk, attack, and death animation, which behaviours are defined in their animation blueprint classes, whereby the particular animations are in the Animation folder. We used a blendspace for the transition between idle and walk. On attack we play the corresponding animation in which we defined notifications, in order to know when to apply the attack.
 ### Skeleton
-![Skeleton](img/Skeleton.PNG)
+![Skeleton](img/Skeleton.PNG)  
 On _Apply Attack_ we use sphere tracing in the range of the attack raduis in order to check if the attack hit and if so apply the damage to the player.
 ### Slime
-![Slime](img/Slime.PNG)
+![Slime](img/Slime.PNG)  
 Slime inherits the EnemyAI (Skeleton) class and overrides the _Apply Attack_ function to be empty, as the slime applies damage on overlap with the player character. Its attack animation is a forward thrust, which combined with the behaviour in the animation blueprint results in a dash ingame (increased velocity, no collision with pawns). Furthermore the slime glows on attack.
 ## Enemy Wave Spawner
 ## Power Up System
